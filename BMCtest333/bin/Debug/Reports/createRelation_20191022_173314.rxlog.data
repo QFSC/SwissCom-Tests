@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="33.34s"
+		durationms="33343"
+		type="root"
+		rid="30b24750a7f64e2"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Veliyan"
+		rxversion="9.1.2.0"
+		host="DESKTOP-VIIOBEE"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="10/22/2019 5:33:17 PM"
+		timestampiso="2019-10-22T14:33:17"
+		endtime="10/22/2019 5:33:51 PM"
+		timeoutfactor="1"
+		module="CreateRelation">
+		<detail>
+			CreateRelation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.831"
+			timeRelativeToTestModuleStartTime="00:04.831"
+			timeWallClock="17:33:22"
+			time="00:04.831"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>INC_ID
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.862"
+			timeRelativeToTestModuleStartTime="00:04.862"
+			timeWallClock="17:33:22"
+			time="00:04.862"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.FormContainer.Relationships' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']//a[@innertext='Relationships']"
+				itempath=".//a[@innertext='Relationships']"
+				fullname="BMCtest333Repository.BMCRemedySearch.FormContainer.Relationships"
+				id="e85fe7bbc2ea4c88baae7794d159d1ca"
+				timeout="65000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\createRelation.cs"
+				codeline="92"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.497"
+			timeRelativeToTestModuleStartTime="00:08.497"
+			timeWallClock="17:33:25"
+			time="00:08.497"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'IncidentForm.mn_searchRelationship' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@arid='301541300']"
+				itempath=".//div[@arid='301541300']"
+				fullname="BMCtest333Repository.IncidentForm.mn_searchRelationship"
+				id="5ed1707a36b947648b67948f2bbd6439"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\createRelation.cs"
+				codeline="96"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.301"
+			timeRelativeToTestModuleStartTime="00:10.301"
+			timeWallClock="17:33:27"
+			time="00:10.301"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}{Down}{Down}{Return}' with focus on 'IncidentForm.mn_searchRelationship'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@arid='301541300']"
+				itempath=".//div[@arid='301541300']"
+				fullname="BMCtest333Repository.IncidentForm.mn_searchRelationship"
+				id="5ed1707a36b947648b67948f2bbd6439"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\createRelation.cs"
+				codeline="100"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.165"
+			timeRelativeToTestModuleStartTime="00:12.165"
+			timeWallClock="17:33:29"
+			time="00:12.165"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'IncidentForm.txt_searchValue' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@arid='301737200']"
+				itempath=".//div[@arid='301737200']"
+				fullname="BMCtest333Repository.IncidentForm.txt_searchValue"
+				id="944056c6aa474f4fad3a56935e93a817"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\createRelation.cs"
+				codeline="104"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.085"
+			timeRelativeToTestModuleStartTime="00:14.085"
+			timeWallClock="17:33:31"
+			time="00:14.085"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'IncidentForm.txt_searchValue'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@arid='301737200']"
+				itempath=".//div[@arid='301737200']"
+				fullname="BMCtest333Repository.IncidentForm.txt_searchValue"
+				id="944056c6aa474f4fad3a56935e93a817"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\createRelation.cs"
+				codeline="108"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.723"
+			timeRelativeToTestModuleStartTime="00:15.723"
+			timeWallClock="17:33:33"
+			time="00:15.723"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'IncidentForm.btn_useAdvancedSearch' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@innertext='Use Advanced Search']"
+				itempath=".//div[@innertext='Use Advanced Search']"
+				fullname="BMCtest333Repository.IncidentForm.btn_useAdvancedSearch"
+				id="abc759c48afe422f903b0b47fbd929bf"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\createRelation.cs"
+				codeline="112"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:24.979"
+			timeRelativeToTestModuleStartTime="00:24.979"
+			timeWallClock="17:33:42"
+			time="00:24.979"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'IncidentForm.mn_impact' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@arid='1000000163']"
+				itempath=".//div[@arid='1000000163']"
+				fullname="BMCtest333Repository.IncidentForm.mn_impact"
+				id="5ea1ccd9081c4adea4a43223631c8d53"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\createRelation.cs"
+				codeline="116"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.863"
+			timeRelativeToTestModuleStartTime="00:25.863"
+			timeWallClock="17:33:43"
+			time="00:25.863"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}' with focus on 'IncidentForm.mn_impact'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@arid='1000000163']"
+				itempath=".//div[@arid='1000000163']"
+				fullname="BMCtest333Repository.IncidentForm.mn_impact"
+				id="5ea1ccd9081c4adea4a43223631c8d53"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\createRelation.cs"
+				codeline="120"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.608"
+			timeRelativeToTestModuleStartTime="00:26.608"
+			timeWallClock="17:33:43"
+			time="00:26.608"
+			level="Info"
+			category="Keyboard"
+			errimg="images_createRe_8b8998ee\createRe_8b8998ee_8cd70f7a_trace.jpg"
+			errthumb="images_createRe_8b8998ee\createRe_8b8998ee_8cd70f7a_trace_thumb.jpg">
+			<message>
+				Key sequence '{Down}{Down}{Return}' with focus on 'IncidentForm.mn_impact'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@arid='1000000163']"
+				itempath=".//div[@arid='1000000163']"
+				fullname="BMCtest333Repository.IncidentForm.mn_impact"
+				id="5ea1ccd9081c4adea4a43223631c8d53"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\createRelation.cs"
+				codeline="124"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.332"
+			timeRelativeToTestModuleStartTime="00:27.332"
+			timeWallClock="17:33:44"
+			time="00:27.332"
+			level="Info"
+			category="Mouse"
+			errimg="images_createRe_8b8998ee\createRe_8b8998ee_0aaf40ed_trace.jpg"
+			errthumb="images_createRe_8b8998ee\createRe_8b8998ee_0aaf40ed_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.FormContainer.Btntextdiv1' at 34;1.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[3]/div/div/div[1]/fieldset/div/a[2]/div"
+				itempath="div[3]/div/div/div[1]/fieldset/div/a[2]/div"
+				fullname="BMCtest333Repository.BMCRemedySearch.FormContainer.Btntextdiv1"
+				id="8192ba19a5cd4b29b034b3b90bf3cb54"
+				timeout="65000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\createRelation.cs"
+				codeline="128"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.176"
+			timeRelativeToTestModuleStartTime="00:28.176"
+			timeWallClock="17:33:45"
+			time="00:28.176"
+			level="Info"
+			category="Mouse"
+			errimg="images_createRe_8b8998ee\createRe_8b8998ee_6eedf375_trace.jpg"
+			errthumb="images_createRe_8b8998ee\createRe_8b8998ee_6eedf375_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.FormContainer.INC0000000000681' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[3]/div/div/div[1]/fieldset/div/div[1]/div[2]//table[@title='']/tbody/?/?/?/?/span[@innerhtml='INC000000000068']"
+				itempath="div[3]/div/div/div[1]/fieldset/div/div[1]/div[2]//table[@title='']/tbody/?/?/?/?/span[@innerhtml=$INC_ID]"
+				fullname="BMCtest333Repository.BMCRemedySearch.FormContainer.INC0000000000681"
+				id="ebc481987b6342f9b7506d0ae6f1477b"
+				timeout="65000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\createRelation.cs"
+				codeline="132"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.343"
+			timeRelativeToTestModuleStartTime="00:33.343"
+			timeWallClock="17:33:50"
+			time="00:33.343"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

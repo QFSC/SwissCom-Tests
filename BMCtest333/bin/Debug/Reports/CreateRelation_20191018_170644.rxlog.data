@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="263d86e0af61bd45"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="tosho"
+		rxversion="9.1.2.0"
+		host="DESKTOP-IMV6CO5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="18-Oct-19 17:06:48"
+		timestampiso="2019-10-18T14:06:48"
+		endtime="18-Oct-19 17:07:01"
+		timeoutfactor="1"
+		module="CreateRelation">
+		<detail>
+			CreateRelation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.031"
+			timeRelativeToTestModuleStartTime="00:07.031"
+			timeWallClock="17:06:55"
+			time="00:07.031"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.FormContainer.Relationships' at 40;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']//a[@innertext='Relationships']"
+				itempath=".//a[@innertext='Relationships']"
+				fullname="BMCtest333Repository.BMCRemedySearch.FormContainer.Relationships"
+				id="e85fe7bbc2ea4c88baae7794d159d1ca"
+				timeout="90000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\CreateRelation.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

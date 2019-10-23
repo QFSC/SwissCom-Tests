@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="53.98s"
+		durationms="53984"
+		type="root"
+		rid="304141bedc1a405b"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="tosho"
+		rxversion="9.1.2.0"
+		host="DESKTOP-IMV6CO5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="18-Oct-19 17:18:11"
+		timestampiso="2019-10-18T14:18:11"
+		endtime="18-Oct-19 17:19:05"
+		timeoutfactor="1"
+		module="CreateRelation">
+		<detail>
+			CreateRelation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.554"
+			timeRelativeToTestModuleStartTime="00:06.554"
+			timeWallClock="17:18:17"
+			time="00:06.554"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.FormContainer.Relationships' at 40;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']//a[@innertext='Relationships']"
+				itempath=".//a[@innertext='Relationships']"
+				fullname="BMCtest333Repository.BMCRemedySearch.FormContainer.Relationships"
+				id="e85fe7bbc2ea4c88baae7794d159d1ca"
+				timeout="90000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\CreateRelation.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.423"
+			timeRelativeToTestModuleStartTime="00:12.423"
+			timeWallClock="17:18:23"
+			time="00:12.423"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.FormContainer.False1' at 36;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[3]/fieldset/div/div/fieldset[4]/div[2]/div/div/div[4]/fieldset/div/div[1]/textarea"
+				itempath="div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[3]/fieldset/div/div/fieldset[4]/div[2]/div/div/div[4]/fieldset/div/div[1]/textarea"
+				fullname="BMCtest333Repository.BMCRemedySearch.FormContainer.False1"
+				id="5ed1707a36b947648b67948f2bbd6439"
+				timeout="90000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\CreateRelation.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.772"
+			timeRelativeToTestModuleStartTime="00:15.772"
+			timeWallClock="17:18:27"
+			time="00:15.772"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}{Down}{Down}{Return}' with focus on 'BMCRemedySearch.FormContainer.False1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[3]/fieldset/div/div/fieldset[4]/div[2]/div/div/div[4]/fieldset/div/div[1]/textarea"
+				itempath="div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[3]/fieldset/div/div/fieldset[4]/div[2]/div/div/div[4]/fieldset/div/div[1]/textarea"
+				fullname="BMCtest333Repository.BMCRemedySearch.FormContainer.False1"
+				id="5ed1707a36b947648b67948f2bbd6439"
+				timeout="90000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\CreateRelation.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.853"
+			timeRelativeToTestModuleStartTime="00:18.853"
+			timeWallClock="17:18:30"
+			time="00:18.853"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.FormContainer.False5' at 22;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[3]/fieldset/div/div/fieldset[4]/div[2]/div/div/div[4]/fieldset/div/div[3]/textarea[@required='False']"
+				itempath="div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[3]/fieldset/div/div/fieldset[4]/div[2]/div/div/div[4]/fieldset/div/div[3]/textarea[@required='False']"
+				fullname="BMCtest333Repository.BMCRemedySearch.FormContainer.False5"
+				id="944056c6aa474f4fad3a56935e93a817"
+				timeout="90000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\CreateRelation.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.279"
+			timeRelativeToTestModuleStartTime="00:22.279"
+			timeWallClock="17:18:33"
+			time="00:22.279"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'BMCRemedySearch.FormContainer.False5'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[3]/fieldset/div/div/fieldset[4]/div[2]/div/div/div[4]/fieldset/div/div[3]/textarea[@required='False']"
+				itempath="div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[3]/fieldset/div/div/fieldset[4]/div[2]/div/div/div[4]/fieldset/div/div[3]/textarea[@required='False']"
+				fullname="BMCtest333Repository.BMCRemedySearch.FormContainer.False5"
+				id="944056c6aa474f4fad3a56935e93a817"
+				timeout="90000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\CreateRelation.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.254"
+			timeRelativeToTestModuleStartTime="00:25.254"
+			timeWallClock="17:18:36"
+			time="00:25.254"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'BMCRemedySearch.FormContainer.UseBasicSearch' at -383;408.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[3]/div/div/div[1]/fieldset/div/a[1]/?/?/div[@innertext='Use Basic Search']"
+				itempath="div[3]/div/div/div[1]/fieldset/div/a[1]/?/?/div[@innertext='Use Basic Search']"
+				fullname="BMCtest333Repository.BMCRemedySearch.FormContainer.UseBasicSearch"
+				id="135e797fb131443ea89373e81471cd7c"
+				timeout="90000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\CreateRelation.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.973"
+			timeRelativeToTestModuleStartTime="00:26.973"
+			timeWallClock="17:18:38"
+			time="00:26.973"
+			level="Warn"
+			category="MoveTo">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\CreateRelation.cs"
+				codeline="103"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.463"
+			timeRelativeToTestModuleStartTime="00:27.463"
+			timeWallClock="17:18:38"
+			time="00:27.463"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MozillaFirefox.Close' at 14;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='Mozilla Firefox']/?/?/button[@accessiblename='Close']"
+				itempath="?/?/button[@accessiblename='Close']"
+				fullname="BMCtest333Repository.MozillaFirefox.Close"
+				id="d5c4abea1f444a46b76ba9c9b7fea04b"
+				timeout="60000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\CreateRelation.cs"
+				codeline="107"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:53.983"
+			timeRelativeToTestModuleStartTime="00:53.983"
+			timeWallClock="17:19:05"
+			time="00:53.983"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

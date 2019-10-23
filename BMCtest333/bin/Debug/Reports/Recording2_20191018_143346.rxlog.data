@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5d2e81f1e796a60"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="tosho"
+		rxversion="9.1.2.0"
+		host="DESKTOP-IMV6CO5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="18-Oct-19 14:33:49"
+		timestampiso="2019-10-18T11:33:49"
+		endtime="18-Oct-19 14:34:11"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.513"
+			timeRelativeToTestModuleStartTime="00:15.513"
+			timeWallClock="14:34:04"
+			time="00:15.513"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LMenu down}' with focus on 'BMCRemedySearch'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']"
+				itempath="/dom[@domain='desktop-c80mesn']"
+				fullname="BMCtest333Repository.BMCRemedySearch.Self"
+				id="eba120b7e8834be39c3973117f3175ef"
+				timeout="30000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.004"
+			timeRelativeToTestModuleStartTime="00:18.004"
+			timeWallClock="14:34:07"
+			time="00:18.004"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+Alt+Shift+F2' Press with focus on 'BMCRemedySearch'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']"
+				itempath="/dom[@domain='desktop-c80mesn']"
+				fullname="BMCtest333Repository.BMCRemedySearch.Self"
+				id="eba120b7e8834be39c3973117f3175ef"
+				timeout="30000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\Recording2.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.449"
+			timeRelativeToTestModuleStartTime="00:18.449"
+			timeWallClock="14:34:07"
+			time="00:18.449"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LMenu up}' with focus on 'BMCRemedySearch'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']"
+				itempath="/dom[@domain='desktop-c80mesn']"
+				fullname="BMCtest333Repository.BMCRemedySearch.Self"
+				id="eba120b7e8834be39c3973117f3175ef"
+				timeout="30000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\Recording2.cs"
+				codeline="92"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.988"
+			timeRelativeToTestModuleStartTime="00:18.988"
+			timeWallClock="14:34:08"
+			time="00:18.988"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left DoubleClick item 'BMCRemedySearch.PageBodyPbChrome.False3' at 5;53.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/fieldset/div[1]/fieldset/div[3]/textarea[@title='']"
+				itempath="?/?/fieldset/div[1]/fieldset/div[3]/textarea[@title='']"
+				fullname="BMCtest333Repository.BMCRemedySearch.PageBodyPbChrome.False3"
+				id="196ce76c520f4718842f9ef9e7cb4486"
+				timeout="90000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\Recording2.cs"
+				codeline="97"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.354"
+			timeRelativeToTestModuleStartTime="00:19.354"
+			timeWallClock="14:34:08"
+			time="00:19.354"
+			level="Warn"
+			category="DoubleClick"
+			errimg="images_Recordin_8be70ee9\Recordin_aa6998c7_rxlog.jpg"
+			errthumb="images_Recordin_8be70ee9\Recordin_aa6998c7_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\Recording2.cs"
+				codeline="98"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.620"
+			timeRelativeToTestModuleStartTime="00:20.620"
+			timeWallClock="14:34:09"
+			time="00:20.620"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'tosho{Return}' with focus on 'BMCRemedySearch.PageBodyPbChrome.False3'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/fieldset/div[1]/fieldset/div[3]/textarea[@title='']"
+				itempath="?/?/fieldset/div[1]/fieldset/div[3]/textarea[@title='']"
+				fullname="BMCtest333Repository.BMCRemedySearch.PageBodyPbChrome.False3"
+				id="196ce76c520f4718842f9ef9e7cb4486"
+				timeout="90000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\Recording2.cs"
+				codeline="101"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

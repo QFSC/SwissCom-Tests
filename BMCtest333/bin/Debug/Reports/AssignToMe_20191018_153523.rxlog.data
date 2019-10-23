@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="130fa50719e61a80"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="tosho"
+		rxversion="9.1.2.0"
+		host="DESKTOP-IMV6CO5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="18-Oct-19 15:35:26"
+		timestampiso="2019-10-18T12:35:26"
+		endtime="18-Oct-19 15:35:37"
+		timeoutfactor="1"
+		module="AssignToMe">
+		<detail>
+			AssignToMe
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.738"
+			timeRelativeToTestModuleStartTime="00:07.738"
+			timeWallClock="15:35:33"
+			time="00:07.738"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.AssignToMe' at 47;-9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[2]/fieldset/div/a[2]/?/?/div[@innertext='Assign to Me']"
+				itempath=".//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[2]/fieldset/div/a[2]/?/?/div[@innertext='Assign to Me']"
+				fullname="BMCtest333Repository.BMCRemedySearch.AssignToMe"
+				id="1c4cf7c5ee1f4ee1bb544cc348b8918f"
+				timeout="60000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\AssignToMe.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.427"
+			timeRelativeToTestModuleStartTime="00:09.427"
+			timeWallClock="15:35:35"
+			time="00:09.427"
+			level="Warn"
+			category="Click"
+			errimg="images_AssignTo_f5b0d4db\AssignTo_b3812194_rxlog.jpg"
+			errthumb="images_AssignTo_f5b0d4db\AssignTo_b3812194_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\AssignToMe.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.56s"
+		durationms="11560"
+		type="root"
+		rid="c339f88e5a132de"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Veliyan"
+		rxversion="9.1.2.0"
+		host="DESKTOP-VIIOBEE"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="10/22/2019 3:18:55 PM"
+		timestampiso="2019-10-22T12:18:55"
+		endtime="10/22/2019 3:19:08 PM"
+		timeoutfactor="1"
+		module="AddSummaryNotes">
+		<detail>
+			AddSummaryNotes
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.389"
+			timeRelativeToTestModuleStartTime="00:05.389"
+			timeWallClock="15:19:01"
+			time="00:05.389"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'IncidentForm.txt_detailedDescription' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@arid='1000000151']"
+				itempath=".//div[@arid='1000000151']"
+				fullname="BMCtest333Repository.IncidentForm.txt_detailedDescription"
+				id="cd65daae841a42b58d75a4c2d67427c5"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\addSummaryNotes.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.605"
+			timeRelativeToTestModuleStartTime="00:08.605"
+			timeWallClock="15:19:04"
+			time="00:08.605"
+			level="Info"
+			category="Keyboard"
+			errimg="images_addSumma_2a03556a\addSumma_2a03556a_5920d6b3_trace.jpg"
+			errthumb="images_addSumma_2a03556a\addSumma_2a03556a_5920d6b3_trace_thumb.jpg">
+			<message>
+				Key sequence 'test notes' with focus on 'IncidentForm.txt_detailedDescription'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@arid='1000000151']"
+				itempath=".//div[@arid='1000000151']"
+				fullname="BMCtest333Repository.IncidentForm.txt_detailedDescription"
+				id="cd65daae841a42b58d75a4c2d67427c5"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\addSummaryNotes.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.194"
+			timeRelativeToTestModuleStartTime="00:11.194"
+			timeWallClock="15:19:06"
+			time="00:11.194"
+			level="Info"
+			category="Mouse"
+			errimg="images_addSumma_2a03556a\addSumma_2a03556a_a3170dde_trace.jpg"
+			errthumb="images_addSumma_2a03556a\addSumma_2a03556a_a3170dde_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'IncidentForm.txt_description' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@arid='1000000000']"
+				itempath=".//div[@arid='1000000000']"
+				fullname="BMCtest333Repository.IncidentForm.txt_description"
+				id="0222285f093c4ae6b8cfd8bdc69227f1"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\addSummaryNotes.cs"
+				codeline="88"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.560"
+			timeRelativeToTestModuleStartTime="00:11.560"
+			timeWallClock="15:19:07"
+			time="00:11.560"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.048"
+			timeRelativeToTestModuleStartTime="00:12.048"
+			timeWallClock="15:19:07"
+			time="00:12.048"
+			level="Info"
+			category="Keyboard"
+			errimg="images_addSumma_2a03556a\addSumma_2a03556a_720fb718_trace.jpg"
+			errthumb="images_addSumma_2a03556a\addSumma_2a03556a_720fb718_trace_thumb.jpg">
+			<message>
+				Key sequence 'test summary' with focus on 'IncidentForm.txt_description'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@arid='1000000000']"
+				itempath=".//div[@arid='1000000000']"
+				fullname="BMCtest333Repository.IncidentForm.txt_description"
+				id="0222285f093c4ae6b8cfd8bdc69227f1"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\addSummaryNotes.cs"
+				codeline="91"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

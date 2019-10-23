@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2da222ecde25e7d5"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Veliyan"
+		rxversion="9.1.2.0"
+		host="DESKTOP-VIIOBEE"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="10/22/2019 2:57:54 PM"
+		timestampiso="2019-10-22T11:57:54"
+		endtime="10/22/2019 2:58:25 PM"
+		timeoutfactor="1"
+		module="LoginRemedy">
+		<detail>
+			LoginRemedy
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.892"
+			timeRelativeToTestModuleStartTime="00:05.892"
+			timeWallClock="14:58:00"
+			time="00:05.892"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://desktop-c80mesn/arsys/forms/desktop-c80mesn/HPD%3AHelp+Desk/Best+Practice+View/?cacheid=14a7d99b' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\loginRemedy.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.062"
+			timeRelativeToTestModuleStartTime="00:06.062"
+			timeWallClock="14:58:00"
+			time="00:06.062"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\loginRemedy.cs"
+				codeline="85"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.077"
+			timeRelativeToTestModuleStartTime="00:07.077"
+			timeWallClock="14:58:01"
+			time="00:07.077"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.LoginPage.txt_userName' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//input[#'username-id']"
+				itempath=".//input[#'username-id']"
+				fullname="BMCtest333Repository.BMCRemedySearch.LoginPage.txt_userName"
+				id="66be8023f5f74d1398c332598a7659e7"
+				timeout="45000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\loginRemedy.cs"
+				codeline="88"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.171"
+			timeRelativeToTestModuleStartTime="00:09.171"
+			timeWallClock="14:58:03"
+			time="00:09.171"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'tosho' with focus on 'BMCRemedySearch.LoginPage.txt_userName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//input[#'username-id']"
+				itempath=".//input[#'username-id']"
+				fullname="BMCtest333Repository.BMCRemedySearch.LoginPage.txt_userName"
+				id="66be8023f5f74d1398c332598a7659e7"
+				timeout="45000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\loginRemedy.cs"
+				codeline="91"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.666"
+			timeRelativeToTestModuleStartTime="00:09.666"
+			timeWallClock="14:58:04"
+			time="00:09.666"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.LoginPage.txt_password' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//input[#'pwd-id']"
+				itempath=".//input[#'pwd-id']"
+				fullname="BMCtest333Repository.BMCRemedySearch.LoginPage.txt_password"
+				id="119b93b8c90c4a9d8550844404d7a985"
+				timeout="45000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\loginRemedy.cs"
+				codeline="94"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.171"
+			timeRelativeToTestModuleStartTime="00:10.171"
+			timeWallClock="14:58:04"
+			time="00:10.171"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '1' with focus on 'BMCRemedySearch.LoginPage.txt_password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//input[#'pwd-id']"
+				itempath=".//input[#'pwd-id']"
+				fullname="BMCtest333Repository.BMCRemedySearch.LoginPage.txt_password"
+				id="119b93b8c90c4a9d8550844404d7a985"
+				timeout="45000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\loginRemedy.cs"
+				codeline="97"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.556"
+			timeRelativeToTestModuleStartTime="00:10.556"
+			timeWallClock="14:58:04"
+			time="00:10.556"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'BMCRemedySearch.LoginPage.txt_password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//input[#'pwd-id']"
+				itempath=".//input[#'pwd-id']"
+				fullname="BMCtest333Repository.BMCRemedySearch.LoginPage.txt_password"
+				id="119b93b8c90c4a9d8550844404d7a985"
+				timeout="45000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\loginRemedy.cs"
+				codeline="100"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.957"
+			timeRelativeToTestModuleStartTime="00:10.957"
+			timeWallClock="14:58:05"
+			time="00:10.957"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 5s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\loginRemedy.cs"
+				codeline="103"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.967"
+			timeRelativeToTestModuleStartTime="00:15.967"
+			timeWallClock="14:58:10"
+			time="00:15.967"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\loginRemedy.cs"
+				codeline="106"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.145"
+			timeRelativeToTestModuleStartTime="00:16.145"
+			timeWallClock="14:58:10"
+			time="00:16.145"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating NotExists on item 'BMCRemedySearch.LoginPage.btn_logIn'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//input[#'login']"
+				itempath=".//input[#'login']"
+				fullname="BMCtest333Repository.BMCRemedySearch.LoginPage.btn_logIn"
+				id="723c0aaefee44a468d2f8157392b719b"
+				timeout="15001"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\loginRemedy.cs"
+				codeline="109"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:31.238"
+			timeRelativeToTestModuleStartTime="00:31.238"
+			timeWallClock="14:58:25"
+			time="00:31.238"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'BMCtest333Repository.BMCRemedySearch.LoginPage.btn_logIn' does not exist (Failed to find item 'BMCtest333Repository.BMCRemedySearch.LoginPage.btn_logIn'. No element found for path '/dom[@domain='desktop-c80mesn']//input[#'login']' at step 'descendant-or-self::input[#'login']' after 61 attempts within 15s.).
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//input[#'login']"
+				itempath=".//input[#'login']"
+				fullname="BMCtest333Repository.BMCRemedySearch.LoginPage.btn_logIn"
+				id="723c0aaefee44a468d2f8157392b719b"
+				timeout="15001"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\loginRemedy.cs"
+				codeline="110"
+				failedStep="descendant-or-self::input[#'login']"
+				bestPathPrefix="/dom[@domain='desktop-c80mesn']"
+				loglvl="Success"
+				itemindex="9">
+			</metainfo>
+		</item>
+	</activity>
+</report>

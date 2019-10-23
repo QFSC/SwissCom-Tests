@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="58.86s"
+		durationms="58855"
+		type="root"
+		rid="8521a7e4f0b48e0"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="tosho"
+		rxversion="9.1.2.0"
+		host="DESKTOP-IMV6CO5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="18-Oct-19 10:39:53"
+		timestampiso="2019-10-18T07:39:53"
+		endtime="18-Oct-19 10:40:52"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.052"
+			timeRelativeToTestModuleStartTime="00:22.052"
+			timeWallClock="10:40:15"
+			time="00:22.052"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://desktop-c80mesn/arsys/forms/desktop-c80mesn/HPD%3AHelp+Desk/Best+Practice+View/?cacheid=14a7d99b' with browser 'Chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.323"
+			timeRelativeToTestModuleStartTime="00:22.323"
+			timeWallClock="10:40:15"
+			time="00:22.323"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 10s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\Recording1.cs"
+				codeline="86"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.331"
+			timeRelativeToTestModuleStartTime="00:32.331"
+			timeWallClock="10:40:25"
+			time="00:32.331"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.UsernameId' at 31;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//input[#'username-id']"
+				itempath=".//input[#'username-id']"
+				fullname="BMCtest333Repository.BMCRemedySearch.UsernameId"
+				id="66be8023f5f74d1398c332598a7659e7"
+				timeout="60000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\Recording1.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:58.855"
+			timeRelativeToTestModuleStartTime="00:58.855"
+			timeWallClock="10:40:52"
+			time="00:58.855"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

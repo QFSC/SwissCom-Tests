@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="209388406f6c2860"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Veliyan"
+		rxversion="9.1.2.0"
+		host="DESKTOP-VIIOBEE"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="10/22/2019 3:11:07 PM"
+		timestampiso="2019-10-22T12:11:07"
+		endtime="10/22/2019 3:11:17 PM"
+		timeoutfactor="1"
+		module="AddCustomer">
+		<detail>
+			AddCustomer
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.203"
+			timeRelativeToTestModuleStartTime="00:05.203"
+			timeWallClock="15:11:13"
+			time="00:05.203"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+Alt+Shift+F2' Press with focus on 'BMCRemedySearch'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']"
+				itempath="/dom[@domain='desktop-c80mesn']"
+				fullname="BMCtest333Repository.BMCRemedySearch.Self"
+				id="eba120b7e8834be39c3973117f3175ef"
+				timeout="5000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\addCustomer.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.151"
+			timeRelativeToTestModuleStartTime="00:07.151"
+			timeWallClock="15:11:15"
+			time="00:07.151"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'IncidentForm.Copy_of_txt_customer' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@id&lt;'303530000']"
+				itempath=".//div[@id&lt;'303530000']"
+				fullname="BMCtest333Repository.IncidentForm.Copy_of_txt_customer"
+				id="1282f5ba0b304517b07cc2a9a6bfb423"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\addCustomer.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.175"
+			timeRelativeToTestModuleStartTime="00:08.175"
+			timeWallClock="15:11:16"
+			time="00:08.175"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'tosho' with focus on 'IncidentForm.Copy_of_txt_customer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@id&lt;'303530000']"
+				itempath=".//div[@id&lt;'303530000']"
+				fullname="BMCtest333Repository.IncidentForm.Copy_of_txt_customer"
+				id="1282f5ba0b304517b07cc2a9a6bfb423"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\addCustomer.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.070"
+			timeRelativeToTestModuleStartTime="00:09.070"
+			timeWallClock="15:11:17"
+			time="00:09.070"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}' with focus on 'IncidentForm.Copy_of_txt_customer'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[@id&lt;'303530000']"
+				itempath=".//div[@id&lt;'303530000']"
+				fullname="BMCtest333Repository.IncidentForm.Copy_of_txt_customer"
+				id="1282f5ba0b304517b07cc2a9a6bfb423"
+				timeout="60000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\addCustomer.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

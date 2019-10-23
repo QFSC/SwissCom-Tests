@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="19.28s"
+		durationms="19277"
+		type="root"
+		rid="bde0a682ac75b4a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Veliyan"
+		rxversion="9.1.2.0"
+		host="DESKTOP-VIIOBEE"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="10/22/2019 2:15:23 PM"
+		timestampiso="2019-10-22T11:15:23"
+		endtime="10/22/2019 2:15:42 PM"
+		timeoutfactor="1"
+		module="AddSummaryNotes">
+		<detail>
+			AddSummaryNotes
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.173"
+			timeRelativeToTestModuleStartTime="00:05.173"
+			timeWallClock="14:15:28"
+			time="00:05.173"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.PageBodyPbChrome.txt_detailedDescription' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/fieldset/div[2]/fieldset/div[1]/textarea[@id='arid_WIN_0_1000000151']"
+				itempath="?/?/fieldset/div[2]/fieldset/div[1]/textarea[@id='arid_WIN_0_1000000151']"
+				fullname="BMCtest333Repository.BMCRemedySearch.PageBodyPbChrome.txt_detailedDescription"
+				id="cd65daae841a42b58d75a4c2d67427c5"
+				timeout="90000"
+				codefile="c:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\AddSummaryNotes.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.278"
+			timeRelativeToTestModuleStartTime="00:19.278"
+			timeWallClock="14:15:42"
+			time="00:19.278"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

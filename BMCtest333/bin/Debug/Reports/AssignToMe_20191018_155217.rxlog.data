@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="50.71s"
+		durationms="50706"
+		type="root"
+		rid="31acea5bbc398f78"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="tosho"
+		rxversion="9.1.2.0"
+		host="DESKTOP-IMV6CO5"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="18-Oct-19 15:52:21"
+		timestampiso="2019-10-18T12:52:21"
+		endtime="18-Oct-19 15:53:12"
+		timeoutfactor="1"
+		module="AssignToMe">
+		<detail>
+			AssignToMe
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.015"
+			timeRelativeToTestModuleStartTime="00:07.015"
+			timeWallClock="15:52:28"
+			time="00:07.015"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.PageBodyPbChrome1' at 148;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[2]/fieldset/div"
+				itempath=".//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[2]/fieldset/div"
+				fullname="BMCtest333Repository.BMCRemedySearch.PageBodyPbChrome1"
+				id="f8101db2fbfc44bb9a1dc4b050c9b56d"
+				timeout="60000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\AssignToMe.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.081"
+			timeRelativeToTestModuleStartTime="00:13.081"
+			timeWallClock="15:52:34"
+			time="00:13.081"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.AssignToMe' at 24;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[2]/fieldset/div/a[2]/?/?/div[@innertext='Assign to Me']"
+				itempath=".//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[1]/fieldset/div/div/div/div/div[2]/fieldset/div/a[2]/?/?/div[@innertext='Assign to Me']"
+				fullname="BMCtest333Repository.BMCRemedySearch.AssignToMe"
+				id="1c4cf7c5ee1f4ee1bb544cc348b8918f"
+				timeout="60000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\AssignToMe.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.766"
+			timeRelativeToTestModuleStartTime="00:16.766"
+			timeWallClock="15:52:38"
+			time="00:16.766"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'BMCRemedySearch.PageBodyPbChrome.ArdbnStatusArfid7DfEnumSel' at 25;2.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/fieldset/div[4]/fieldset/div[5]"
+				itempath="?/?/fieldset/div[4]/fieldset/div[5]"
+				fullname="BMCtest333Repository.BMCRemedySearch.PageBodyPbChrome.ArdbnStatusArfid7DfEnumSel"
+				id="7e4913301e4f463aa0eaf5e5016321a7"
+				timeout="90000"
+				codefile="c:\Users\tosho\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\AssignToMe.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.707"
+			timeRelativeToTestModuleStartTime="00:50.707"
+			timeWallClock="15:53:12"
+			time="00:50.707"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

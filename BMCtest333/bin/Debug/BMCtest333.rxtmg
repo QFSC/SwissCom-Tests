@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="BMCtest333"
+      id="062a1356-88a8-4e3e-8cdb-1ea171a7a75f"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="BMCtest333"
+      id="062a1356-88a8-4e3e-8cdb-1ea171a7a75f"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
