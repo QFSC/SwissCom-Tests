@@ -141,6 +141,11 @@
             Gets or sets the value of variable INC_ID.
             </summary>
         </member>
+        <member name="P:BMCtest333.BMCtest333Repository.Browser">
+            <summary>
+            Gets or sets the value of variable Browser.
+            </summary>
+        </member>
         <member name="P:BMCtest333.BMCtest333Repository.SelfInfo">
             <summary>
             The Self item info.
@@ -169,6 +174,11 @@
         <member name="P:BMCtest333.BMCtest333Repository.MozillaFirefox">
             <summary>
             The MozillaFirefox folder.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333Repository.TortoiseGit">
+            <summary>
+            The TortoiseGit folder.
             </summary>
         </member>
         <member name="T:BMCtest333.BMCtest333RepositoryFolders">
@@ -416,14 +426,34 @@
             The mn_relationshipType item info.
             </summary>
         </member>
-        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.txt_searchIncidentAssocID">
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.txt_IncidentID">
             <summary>
-            The txt_searchIncidentAssocID item.
+            The txt_IncidentID item.
             </summary>
         </member>
-        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.txt_searchIncidentAssocIDInfo">
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.txt_IncidentIDInfo">
             <summary>
-            The txt_searchIncidentAssocID item info.
+            The txt_IncidentID item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.mn_status">
+            <summary>
+            The mn_status item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.mn_statusInfo">
+            <summary>
+            The mn_status item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.mn_statusReason">
+            <summary>
+            The mn_statusReason item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.mn_statusReasonInfo">
+            <summary>
+            The mn_statusReason item info.
             </summary>
         </member>
         <member name="T:BMCtest333.BMCtest333RepositoryFolders.BMCRemedySearchAppFolder">
@@ -644,6 +674,26 @@
         <member name="P:BMCtest333.BMCtest333RepositoryFolders.PageBodyPbChromeFolder.ArdbnStatusArfid7DfEnumSelInfo">
             <summary>
             The ArdbnStatusArfid7DfEnumSel item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.PageBodyPbChromeFolder.PendingOriginalIncident">
+            <summary>
+            The PendingOriginalIncident item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.PageBodyPbChromeFolder.PendingOriginalIncidentInfo">
+            <summary>
+            The PendingOriginalIncident item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.PageBodyPbChromeFolder.Pending">
+            <summary>
+            The Pending item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.PageBodyPbChromeFolder.PendingInfo">
+            <summary>
+            The Pending item info.
             </summary>
         </member>
         <member name="T:BMCtest333.BMCtest333RepositoryFolders.FormContainerFolder">
@@ -906,6 +956,36 @@
             The Close item info.
             </summary>
         </member>
+        <member name="T:BMCtest333.BMCtest333RepositoryFolders.TortoiseGitAppFolder">
+            <summary>
+            The TortoiseGitAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.BMCtest333RepositoryFolders.TortoiseGitAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TortoiseGit  folder.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.TortoiseGitAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.TortoiseGitAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.TortoiseGitAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.TortoiseGitAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
         <member name="T:BMCtest333.CreateRelation">
              <summary>
             The createRelation recording.
@@ -941,6 +1021,143 @@
             </summary>
         </member>
         <member name="P:BMCtest333.CreateRelation.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.CreateRelation.var_originIncident">
+            <summary>
+            Gets or sets the value of variable var_originIncident.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.getIncidentDetails">
+             <summary>
+            The getIncidentDetails recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.getIncidentDetails.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.getIncidentDetails.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.getIncidentDetails.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.getIncidentDetails.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.getIncidentDetails.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.getIncidentDetails.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.getIncidentDetails.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.getIncidentDetails.var_Status">
+            <summary>
+            Gets or sets the value of variable var_Status.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.getIncidentDetails.var_StatusReason">
+            <summary>
+            Gets or sets the value of variable var_StatusReason.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.GetIncidentID">
+             <summary>
+            The GetIncidentID recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.GetIncidentID.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.GetIncidentID.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.GetIncidentID.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.GetIncidentID.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.GetIncidentID.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.GetIncidentID.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.GetIncidentID.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.GetIncidentID.var_duplicIncident">
+            <summary>
+            Gets or sets the value of variable var_duplicIncident.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.goToNewMode">
+             <summary>
+            The goToNewMode recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.goToNewMode.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.goToNewMode.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.goToNewMode.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.goToNewMode.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.goToNewMode.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.goToNewMode.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.goToNewMode.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
@@ -1028,6 +1245,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:BMCtest333.LoginRemedy.Browser">
+            <summary>
+            Gets or sets the value of variable Browser.
+            </summary>
+        </member>
         <member name="T:BMCtest333.AddCustomer">
              <summary>
             The addCustomer recording.
@@ -1063,6 +1285,45 @@
             </summary>
         </member>
         <member name="P:BMCtest333.AddCustomer.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.CloseBrowser">
+             <summary>
+            The closeBrowser recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.CloseBrowser.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
@@ -1106,6 +1367,133 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:BMCtest333.searchIncident">
+             <summary>
+            The searchIncident recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.searchIncident.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.searchIncident.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.searchIncident.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.searchIncident.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.searchIncident.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.searchIncident.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.searchIncident.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.searchIncident.var_duplicIncident">
+            <summary>
+            Gets or sets the value of variable var_duplicIncident.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.searchOriginalIncident">
+             <summary>
+            The searchOriginalIncident recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.searchOriginalIncident.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.searchOriginalIncident.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.searchOriginalIncident.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.searchOriginalIncident.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.searchOriginalIncident.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.searchOriginalIncident.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.searchOriginalIncident.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.searchOriginIncident">
+             <summary>
+            The searchOriginIncident recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.searchOriginIncident.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.searchOriginIncident.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.searchOriginIncident.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.searchOriginIncident.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.searchOriginIncident.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.searchOriginIncident.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.searchOriginIncident.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.searchOriginIncident.var_originIncident">
+            <summary>
+            Gets or sets the value of variable var_originIncident.
+            </summary>
+        </member>
         <member name="T:BMCtest333.setAssignedGroup">
              <summary>
             The setAssignedGroup recording.
@@ -1143,6 +1531,94 @@
         <member name="P:BMCtest333.setAssignedGroup.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.validateFields">
+             <summary>
+            The validateFields recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.validateFields.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateFields.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateFields.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.validateFields.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateFields.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.validateFields.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.validateFields.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.validateOriginIncidentDetails">
+             <summary>
+            The validateOriginIncidentDetails recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.validateOriginIncidentDetails.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateOriginIncidentDetails.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateOriginIncidentDetails.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.validateOriginIncidentDetails.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateOriginIncidentDetails.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.validateOriginIncidentDetails.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.validateOriginIncidentDetails.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.validateOriginIncidentDetails.var_originStatus">
+            <summary>
+            Gets or sets the value of variable var_originStatus.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.validateOriginIncidentDetails.var_originStatusReason">
+            <summary>
+            Gets or sets the value of variable var_originStatusReason.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

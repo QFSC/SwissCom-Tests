@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c5544f9d-f001-4a43-899e-aa63eeb8f0e7"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="BMCtest333">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="704c9806-bcf2-4924-b77a-7e1e5228de1e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8902fdd3-5533-41a7-a25e-4265827b540b"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='desktop-c80mesn']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="c96fe3b8-0ac8-477d-9c9e-bc0ec228fece"
+	name="BMCtest333Repository"
+	relativepath="BMCtest333Repository.rxrep">
+		<codegen
+		classname="BMCtest333Repository"
+		namespace="BMCtest333">
+		</codegen>
+		<rootfolder
+		id="05f39afb-bbd5-40dd-b9b1-a986a7574ee7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		closeBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

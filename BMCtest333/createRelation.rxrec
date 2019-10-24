@@ -23,6 +23,10 @@ mode="Global">
 	namespace="BMCtest333">
 	</codegen>
 	<variables>
+		<var
+		id="41cad56b-604d-4bee-8165-ddd0b8af5792"
+		name="var_originIncident">
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -1352,6 +1356,29 @@ nPHPHPpUsUlvEm1JFx15fJP4mp6KLBcigYO0rKQQX6j6CpaKKBBRRRQAUUUUAFFFFABRRRQAUUUU
 AFFFFABRRRQAUUUUAFFFFAH/2Q==
 			</helperscreenshot>
 		</mouseitem>
+		<setvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ca202cf5-37c8-4d73-8782-35f25736e7f3">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="AttributeValue"
+				variable="var_originIncident">
+				</binding>
+			</bindings>
+			<info
+			id="8fdf67c0-3e5a-48bf-a212-2501e54ed4cc"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='desktop-c80mesn']//div[@arid='1000000161']/textarea[@tagname='textarea']
+				</path>
+			</info>
+			<AttributeValue>
+			</AttributeValue>
+		</setvaluerecorditem>
 		<keysequenceitem
 		KeySequence="INC000000000206"
 		duration="20ms"
@@ -1542,30 +1569,6 @@ kh1UY9Gz/SgCK1P+nMMEfK3UH1FWpv8AXW3/AF1H8jUEDZu+n8DfzFTzf662/wCuo/kaYi1bf6s/
 RRRQAUUUUAUaKKKACiiigBKjP+sP0H9aKKAI7b/j8/4C38xVib/XW3/XUfyNFFMRatv9Wf8Aff8A
 9CNPj+6f94/zNFFIY6iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k=
 			</helperscreenshot>
-		</mouseitem>
-		<mouseitem
-		action="Click"
-		button="Left"
-		duration="300ms"
-		enabled="True"
-		loc="Center"
-		movetime="300ms"
-		optional="False"
-		searchpropertyid="9d6178ec-e0d3-4941-b975-e199f1ca6dce"
-		sx="611"
-		sy="736"
-		warnoutofbounds="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="066f85ba-f1fa-4463-ba25-ac9d0673fdd9"
-			sourcename="Recorder">
-				<path>
-					/dom[@domain='desktop-c80mesn']//div[@id='WIN_0_302078000']//span[@innertext='INC000000000208']
-				</path>
-			</info>
 		</mouseitem>
 		<mouseitem
 		action="Click"

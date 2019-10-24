@@ -822,7 +822,7 @@ tOoopDFooooAKKKKACiiigD/2Q==
 			</helperscreenshot>
 		</mouseitem>
 		<keysequenceitem
-		KeySequence="."
+		KeySequence="Test Resolution"
 		duration="20ms"
 		enabled="True"
 		optional="False"

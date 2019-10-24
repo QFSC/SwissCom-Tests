@@ -41,6 +41,7 @@ namespace BMCtest333
         /// </summary>
         public CreateRelation()
         {
+            var_originIncident = "";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace BMCtest333
         }
 
 #region Variables
+
+        string _var_originIncident;
+
+        /// <summary>
+        /// Gets or sets the value of variable var_originIncident.
+        /// </summary>
+        [TestVariable("41cad56b-604d-4bee-8165-ddd0b8af5792")]
+        public string var_originIncident
+        {
+            get { return _var_originIncident; }
+            set { _var_originIncident = value; }
+        }
 
 #endregion
 
@@ -107,16 +120,16 @@ namespace BMCtest333
             repo.IncidentForm.txt_IncidentID.Click("69;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'INC000000000206'.", new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute InnerText to '$var_originIncident' on item 'IncidentForm.txt_IncidentID'.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(7));
+            repo.IncidentForm.txt_IncidentID.Element.SetAttributeValue("InnerText", var_originIncident);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'INC000000000206'.", new RecordItemIndex(8));
             Keyboard.Press("INC000000000206");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_search_IncidentAssoc' at Center.", repo.IncidentForm.btn_search_IncidentAssocInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_search_IncidentAssoc' at Center.", repo.IncidentForm.btn_search_IncidentAssocInfo, new RecordItemIndex(9));
             repo.IncidentForm.btn_search_IncidentAssoc.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.tf_row_incidentID' at Center.", repo.IncidentForm.tf_row_incidentIDInfo, new RecordItemIndex(9));
-            repo.IncidentForm.tf_row_incidentID.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.mn_relationshipType' at Center.", repo.IncidentForm.mn_relationshipTypeInfo, new RecordItemIndex(10));

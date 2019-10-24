@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c527a1f4-2d27-4a6d-b19d-10c933653726"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GetIncidentID"
+	namespace="BMCtest333">
+	</codegen>
+	<variables>
+		<var
+		id="e12ce594-74ca-48bf-b712-5d101a44fdbd"
+		name="var_duplicIncident">
+		</var>
+	</variables>
+	<recorditems>
+		<getvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="bf904c2a-d78e-4285-98a1-4d9543055514"
+		varname="var_duplicIncident">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8fdf67c0-3e5a-48bf-a212-2501e54ed4cc"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='desktop-c80mesn']//div[@arid='1000000161']/textarea[@tagname='textarea']
+				</path>
+			</info>
+		</getvaluerecorditem>
+	</recorditems>
+	<repository
+	id="c96fe3b8-0ac8-477d-9c9e-bc0ec228fece"
+	name="BMCtest333Repository"
+	relativepath="BMCtest333Repository.rxrep">
+		<codegen
+		classname="BMCtest333Repository"
+		namespace="BMCtest333">
+		</codegen>
+		<rootfolder
+		id="05f39afb-bbd5-40dd-b9b1-a986a7574ee7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GetIncidentID.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

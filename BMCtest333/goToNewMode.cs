@@ -24,47 +24,34 @@ namespace BMCtest333
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The searchIncident recording.
+    ///The goToNewMode recording.
     /// </summary>
-    [TestModule("91629695-572d-4c60-a28f-a4220d6c72fc", ModuleType.Recording, 1)]
-    public partial class searchIncident : ITestModule
+    [TestModule("d8c1847d-ae45-4e39-b9a7-5ec5d282a53a", ModuleType.Recording, 1)]
+    public partial class goToNewMode : ITestModule
     {
         /// <summary>
         /// Holds an instance of the BMCtest333Repository repository.
         /// </summary>
         public static BMCtest333Repository repo = BMCtest333Repository.Instance;
 
-        static searchIncident instance = new searchIncident();
+        static goToNewMode instance = new goToNewMode();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public searchIncident()
+        public goToNewMode()
         {
-            var_duplicIncident = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static searchIncident Instance
+        public static goToNewMode Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _var_duplicIncident;
-
-        /// <summary>
-        /// Gets or sets the value of variable var_duplicIncident.
-        /// </summary>
-        [TestVariable("51e88388-6bdf-4a5d-8263-747829c2ed50")]
-        public string var_duplicIncident
-        {
-            get { return _var_duplicIncident; }
-            set { _var_duplicIncident = value; }
-        }
 
 #endregion
 
@@ -92,20 +79,10 @@ namespace BMCtest333
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.txt_IncidentID' at Center.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(0));
-            repo.IncidentForm.txt_IncidentID.Click();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+Alt+Shift+F2' Press with focus on 'BMCRemedySearch'.", repo.BMCRemedySearch.SelfInfo, new RecordItemIndex(0));
+            Keyboard.PrepareFocus(repo.BMCRemedySearch.Self);
+            Keyboard.Press(System.Windows.Forms.Keys.F2 | System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt, 60, Keyboard.DefaultKeyPressTime, 1, true);
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$var_duplicIncident' on item 'IncidentForm.txt_IncidentID'.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(1));
-            repo.IncidentForm.txt_IncidentID.Element.SetAttributeValue("TagValue", var_duplicIncident);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_search_IncidentAssoc' at Center.", repo.IncidentForm.btn_search_IncidentAssocInfo, new RecordItemIndex(2));
-            repo.IncidentForm.btn_search_IncidentAssoc.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
-            Delay.Duration(5000, false);
             
         }
 

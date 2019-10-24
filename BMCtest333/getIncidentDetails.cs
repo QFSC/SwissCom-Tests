@@ -24,46 +24,59 @@ namespace BMCtest333
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The searchIncident recording.
+    ///The getIncidentDetails recording.
     /// </summary>
-    [TestModule("91629695-572d-4c60-a28f-a4220d6c72fc", ModuleType.Recording, 1)]
-    public partial class searchIncident : ITestModule
+    [TestModule("c315e65f-c4c7-4669-bcb0-0a869556f2f0", ModuleType.Recording, 1)]
+    public partial class getIncidentDetails : ITestModule
     {
         /// <summary>
         /// Holds an instance of the BMCtest333Repository repository.
         /// </summary>
         public static BMCtest333Repository repo = BMCtest333Repository.Instance;
 
-        static searchIncident instance = new searchIncident();
+        static getIncidentDetails instance = new getIncidentDetails();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public searchIncident()
+        public getIncidentDetails()
         {
-            var_duplicIncident = "";
+            var_Status = "";
+            var_StatusReason = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static searchIncident Instance
+        public static getIncidentDetails Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
-        string _var_duplicIncident;
+        string _var_Status;
 
         /// <summary>
-        /// Gets or sets the value of variable var_duplicIncident.
+        /// Gets or sets the value of variable var_Status.
         /// </summary>
-        [TestVariable("51e88388-6bdf-4a5d-8263-747829c2ed50")]
-        public string var_duplicIncident
+        [TestVariable("48f50358-36bf-4c39-9cf4-877e3adeb6dd")]
+        public string var_Status
         {
-            get { return _var_duplicIncident; }
-            set { _var_duplicIncident = value; }
+            get { return _var_Status; }
+            set { _var_Status = value; }
+        }
+
+        string _var_StatusReason;
+
+        /// <summary>
+        /// Gets or sets the value of variable var_StatusReason.
+        /// </summary>
+        [TestVariable("7545dd5e-0316-4e1c-afea-fbbeb8a2152b")]
+        public string var_StatusReason
+        {
+            get { return _var_StatusReason; }
+            set { _var_StatusReason = value; }
         }
 
 #endregion
@@ -92,20 +105,13 @@ namespace BMCtest333
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.txt_IncidentID' at Center.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(0));
-            repo.IncidentForm.txt_IncidentID.Click();
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'IncidentForm.mn_status' and assigning its value to variable 'var_Status'.", repo.IncidentForm.mn_statusInfo, new RecordItemIndex(0));
+            var_Status = repo.IncidentForm.mn_status.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$var_duplicIncident' on item 'IncidentForm.txt_IncidentID'.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(1));
-            repo.IncidentForm.txt_IncidentID.Element.SetAttributeValue("TagValue", var_duplicIncident);
+            Report.Log(ReportLevel.Info, "Get Value", "Getting attribute 'TagValue' from item 'IncidentForm.mn_statusReason' and assigning its value to variable 'var_StatusReason'.", repo.IncidentForm.mn_statusReasonInfo, new RecordItemIndex(1));
+            var_StatusReason = repo.IncidentForm.mn_statusReason.Element.GetAttributeValueText("TagValue");
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_search_IncidentAssoc' at Center.", repo.IncidentForm.btn_search_IncidentAssocInfo, new RecordItemIndex(2));
-            repo.IncidentForm.btn_search_IncidentAssoc.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
-            Delay.Duration(5000, false);
             
         }
 

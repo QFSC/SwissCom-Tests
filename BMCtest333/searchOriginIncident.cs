@@ -24,46 +24,46 @@ namespace BMCtest333
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The searchIncident recording.
+    ///The searchOriginIncident recording.
     /// </summary>
-    [TestModule("91629695-572d-4c60-a28f-a4220d6c72fc", ModuleType.Recording, 1)]
-    public partial class searchIncident : ITestModule
+    [TestModule("60d40e76-40ab-4cbe-8897-2ed84e607e7d", ModuleType.Recording, 1)]
+    public partial class searchOriginIncident : ITestModule
     {
         /// <summary>
         /// Holds an instance of the BMCtest333Repository repository.
         /// </summary>
         public static BMCtest333Repository repo = BMCtest333Repository.Instance;
 
-        static searchIncident instance = new searchIncident();
+        static searchOriginIncident instance = new searchOriginIncident();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public searchIncident()
+        public searchOriginIncident()
         {
-            var_duplicIncident = "";
+            var_originIncident = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static searchIncident Instance
+        public static searchOriginIncident Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
-        string _var_duplicIncident;
+        string _var_originIncident;
 
         /// <summary>
-        /// Gets or sets the value of variable var_duplicIncident.
+        /// Gets or sets the value of variable var_originIncident.
         /// </summary>
-        [TestVariable("51e88388-6bdf-4a5d-8263-747829c2ed50")]
-        public string var_duplicIncident
+        [TestVariable("2c63e07d-7a18-4629-96f9-3ab2eb3033f7")]
+        public string var_originIncident
         {
-            get { return _var_duplicIncident; }
-            set { _var_duplicIncident = value; }
+            get { return _var_originIncident; }
+            set { _var_originIncident = value; }
         }
 
 #endregion
@@ -96,8 +96,8 @@ namespace BMCtest333
             repo.IncidentForm.txt_IncidentID.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$var_duplicIncident' on item 'IncidentForm.txt_IncidentID'.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(1));
-            repo.IncidentForm.txt_IncidentID.Element.SetAttributeValue("TagValue", var_duplicIncident);
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$var_originIncident' on item 'IncidentForm.txt_IncidentID'.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(1));
+            repo.IncidentForm.txt_IncidentID.Element.SetAttributeValue("TagValue", var_originIncident);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_search_IncidentAssoc' at Center.", repo.IncidentForm.btn_search_IncidentAssocInfo, new RecordItemIndex(2));

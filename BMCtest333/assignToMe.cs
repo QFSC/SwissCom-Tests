@@ -85,11 +85,11 @@ namespace BMCtest333
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.NextStage' at 30;1.", repo.IncidentForm.NextStageInfo, new RecordItemIndex(1));
             repo.IncidentForm.NextStage.Click("30;1");
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BMCRemedySearch.FormContainer.False' at 30;14.", repo.BMCRemedySearch.FormContainer.FalseInfo, new RecordItemIndex(2));
-            repo.BMCRemedySearch.FormContainer.False.Click("30;14");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.txt_Resolution' at 30;14.", repo.IncidentForm.txt_ResolutionInfo, new RecordItemIndex(2));
+            repo.IncidentForm.txt_Resolution.Click("30;14");
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '.' with focus on 'BMCRemedySearch.FormContainer.False'.", repo.BMCRemedySearch.FormContainer.FalseInfo, new RecordItemIndex(3));
-            repo.BMCRemedySearch.FormContainer.False.PressKeys(".");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Test Resolution' with focus on 'IncidentForm.txt_Resolution'.", repo.IncidentForm.txt_ResolutionInfo, new RecordItemIndex(3));
+            repo.IncidentForm.txt_Resolution.PressKeys("Test Resolution");
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_save_NextStage_PopUp' at 32;2.", repo.IncidentForm.btn_save_NextStage_PopUpInfo, new RecordItemIndex(4));
             repo.IncidentForm.btn_save_NextStage_PopUp.Click("32;2");

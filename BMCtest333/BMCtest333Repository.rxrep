@@ -217,6 +217,31 @@ name="BMCtest333Repository">
 			searchtimeout="30000ms">
 				/dom[@domain='desktop-c80mesn']//div[@arid='1000000161']/textarea[@tagname='textarea']
 			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9957a7e1-2f97-4ff1-8347-e4a17e915429"
+			name="mn_status"
+			refimgid="7a61dd50-f3d1-4d0a-9ce5-79411acd5495"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn']//div[@arid='7']//div[@class='selection']/input
+			</item>
+			<item
+			capname="textareatag"
+			id="93e0a513-ce9f-478d-8df0-c3c3182fb445"
+			name="mn_statusReason"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn']//div[@arid='1000000881']//textarea
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="206f81af-eb2c-40eb-99b9-38216bf61a55"
+			name="txt_Resolution"
+			refimgid="af0ef93e-2e42-4092-af3a-ca16ade743d4"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn']//div[@arid='1000000156']//textarea
+			</item>
 			<basepath>
 				/dom[@domain='desktop-c80mesn']
 			</basepath>
@@ -350,6 +375,26 @@ name="BMCtest333Repository">
 				searchtimeout="30000ms">
 					/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/fieldset/div[4]/fieldset/div[5]
 				</item>
+				<item
+				addcaps="unknown,webelement,textareatag"
+				capname="textareatag"
+				id="d853b0f7-eaf1-40b3-887d-083d6676470e"
+				name="PendingOriginalIncident"
+				refimgid="a7fca8d3-aaac-4665-aa38-fa9ce441eab6"
+				refpath="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[4]/fieldset/div/div/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/div/fieldset/div[4]/fieldset/div[6]/textarea[@title='Pending Original Incident']"
+				searchtimeout="30000ms">
+					/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/fieldset/div[4]/fieldset/div[6]/textarea[@title='Pending Original Incident']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="8b40b3d9-15b8-492b-bf26-3c617f689716"
+				name="Pending"
+				refimgid="bdcdadde-4b46-434d-9b2b-eb23f108e486"
+				refpath="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[4]/fieldset/div/div/div/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/div/fieldset/div[4]/fieldset/div[5]/div/input[@title='Pending']"
+				searchtimeout="30000ms">
+					/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/fieldset/div[4]/fieldset/div[5]/div/input[@title='Pending']
+				</item>
 				<basepath>
 					/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div
 				</basepath>
@@ -391,16 +436,6 @@ name="BMCtest333Repository">
 			name="FormContainer"
 			searchtimeout="30000ms"
 			usecache="False">
-				<item
-				addcaps="unknown,webelement,textareatag"
-				capname="textareatag"
-				id="206f81af-eb2c-40eb-99b9-38216bf61a55"
-				name="False"
-				refimgid="af0ef93e-2e42-4092-af3a-ca16ade743d4"
-				refpath="/dom[@domain='desktop-c80mesn' and @caption='Incident Modification']//div[#'FormContainer']/div[5]/textarea[@required='False']"
-				searchtimeout="30000ms">
-					/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/?/?/textarea[@wrap='soft']
-				</item>
 				<item
 				addcaps="unknown,webelement,atag"
 				capname="atag"

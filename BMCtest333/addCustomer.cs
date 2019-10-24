@@ -79,20 +79,15 @@ namespace BMCtest333
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Keyboard", "Key 'Ctrl+Alt+Shift+F2' Press with focus on 'BMCRemedySearch'.", repo.BMCRemedySearch.SelfInfo, new RecordItemIndex(0));
-            Keyboard.PrepareFocus(repo.BMCRemedySearch.Self);
-            Keyboard.Press(System.Windows.Forms.Keys.F2 | System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt, 60, Keyboard.DefaultKeyPressTime, 1, true);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.txt_customer' at Center.", repo.IncidentForm.txt_customerInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.txt_customer' at Center.", repo.IncidentForm.txt_customerInfo, new RecordItemIndex(0));
             repo.IncidentForm.txt_customer.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'tosho' with focus on 'IncidentForm.txt_customer'.", repo.IncidentForm.txt_customerInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'tosho' with focus on 'IncidentForm.txt_customer'.", repo.IncidentForm.txt_customerInfo, new RecordItemIndex(1));
             repo.IncidentForm.txt_customer.PressKeys("tosho");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'IncidentForm.txt_customer'.", repo.IncidentForm.txt_customerInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'IncidentForm.txt_customer'.", repo.IncidentForm.txt_customerInfo, new RecordItemIndex(2));
             repo.IncidentForm.txt_customer.PressKeys("{Return}");
             Delay.Milliseconds(0);
             

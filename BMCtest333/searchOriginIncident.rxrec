@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="91629695-572d-4c60-a28f-a4220d6c72fc"
+id="60d40e76-40ab-4cbe-8897-2ed84e607e7d"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,13 +19,13 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="searchIncident"
+	classname="searchOriginIncident"
 	namespace="BMCtest333">
 	</codegen>
 	<variables>
 		<var
-		id="51e88388-6bdf-4a5d-8263-747829c2ed50"
-		name="var_duplicIncident">
+		id="2c63e07d-7a18-4629-96f9-3ab2eb3033f7"
+		name="var_originIncident">
 		</var>
 	</variables>
 	<recorditems>
@@ -297,7 +297,7 @@ KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACoRxekDjMeT7nNFFNCZNRRRSGf
 			<bindings>
 				<binding
 				target="AttributeValue"
-				variable="var_duplicIncident">
+				variable="var_originIncident">
 				</binding>
 			</bindings>
 			<info
@@ -357,7 +357,7 @@ KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACoRxekDjMeT7nNFFNCZNRRRSGf
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		searchIncident.UserCode.cs
+		searchOriginIncident.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

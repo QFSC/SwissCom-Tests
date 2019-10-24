@@ -300,6 +300,9 @@ namespace BMCtest333
             RepoItemInfo _btn_relateincidentassocInfo;
             RepoItemInfo _mn_relationshiptypeInfo;
             RepoItemInfo _txt_incidentidInfo;
+            RepoItemInfo _mn_statusInfo;
+            RepoItemInfo _mn_statusreasonInfo;
+            RepoItemInfo _txt_resolutionInfo;
 
             /// <summary>
             /// Creates a new IncidentForm  folder.
@@ -325,6 +328,9 @@ namespace BMCtest333
                 _btn_relateincidentassocInfo = new RepoItemInfo(this, "btn_relateIncidentAssoc", ".//div[@innertext='Relate']", 30000, null, "02dfbc41-8354-4f46-ba15-348fbf1ac174");
                 _mn_relationshiptypeInfo = new RepoItemInfo(this, "mn_relationshipType", ".//div[@arid='301527000']", 30000, null, "56c8ae4b-b939-484d-8435-c5c28474e467");
                 _txt_incidentidInfo = new RepoItemInfo(this, "txt_IncidentID", ".//div[@arid='1000000161']/textarea[@tagname='textarea']", 30000, null, "8fdf67c0-3e5a-48bf-a212-2501e54ed4cc");
+                _mn_statusInfo = new RepoItemInfo(this, "mn_status", ".//div[@arid='7']//div[@class='selection']/input", 30000, null, "9957a7e1-2f97-4ff1-8347-e4a17e915429");
+                _mn_statusreasonInfo = new RepoItemInfo(this, "mn_statusReason", ".//div[@arid='1000000881']//textarea", 30000, null, "93e0a513-ce9f-478d-8df0-c3c3182fb445");
+                _txt_resolutionInfo = new RepoItemInfo(this, "txt_Resolution", ".//div[@arid='1000000156']//textarea", 30000, null, "206f81af-eb2c-40eb-99b9-38216bf61a55");
             }
 
             /// <summary>
@@ -782,6 +788,78 @@ namespace BMCtest333
                     return _txt_incidentidInfo;
                 }
             }
+
+            /// <summary>
+            /// The mn_status item.
+            /// </summary>
+            [RepositoryItem("9957a7e1-2f97-4ff1-8347-e4a17e915429")]
+            public virtual Ranorex.InputTag mn_status
+            {
+                get
+                {
+                    return _mn_statusInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The mn_status item info.
+            /// </summary>
+            [RepositoryItemInfo("9957a7e1-2f97-4ff1-8347-e4a17e915429")]
+            public virtual RepoItemInfo mn_statusInfo
+            {
+                get
+                {
+                    return _mn_statusInfo;
+                }
+            }
+
+            /// <summary>
+            /// The mn_statusReason item.
+            /// </summary>
+            [RepositoryItem("93e0a513-ce9f-478d-8df0-c3c3182fb445")]
+            public virtual Ranorex.TextAreaTag mn_statusReason
+            {
+                get
+                {
+                    return _mn_statusreasonInfo.CreateAdapter<Ranorex.TextAreaTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The mn_statusReason item info.
+            /// </summary>
+            [RepositoryItemInfo("93e0a513-ce9f-478d-8df0-c3c3182fb445")]
+            public virtual RepoItemInfo mn_statusReasonInfo
+            {
+                get
+                {
+                    return _mn_statusreasonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The txt_Resolution item.
+            /// </summary>
+            [RepositoryItem("206f81af-eb2c-40eb-99b9-38216bf61a55")]
+            public virtual Ranorex.TextAreaTag txt_Resolution
+            {
+                get
+                {
+                    return _txt_resolutionInfo.CreateAdapter<Ranorex.TextAreaTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The txt_Resolution item info.
+            /// </summary>
+            [RepositoryItemInfo("206f81af-eb2c-40eb-99b9-38216bf61a55")]
+            public virtual RepoItemInfo txt_ResolutionInfo
+            {
+                get
+                {
+                    return _txt_resolutionInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -1019,6 +1097,8 @@ namespace BMCtest333
             RepoItemInfo _ardbnimpactarfid1000000163dfenumselInfo;
             RepoItemInfo _ardbnz2phbasicincidentinformationarfidInfo;
             RepoItemInfo _ardbnstatusarfid7dfenumselInfo;
+            RepoItemInfo _pendingoriginalincidentInfo;
+            RepoItemInfo _pendingInfo;
 
             /// <summary>
             /// Creates a new PageBodyPbChrome  folder.
@@ -1037,6 +1117,8 @@ namespace BMCtest333
                 _ardbnimpactarfid1000000163dfenumselInfo = new RepoItemInfo(this, "ArdbnImpactArfid1000000163DfEnumSel", "?/?/fieldset/div[3]/fieldset/div[8]", 30000, null, "6aa97f5a-81c0-4b90-a607-bbdfd63b6c99");
                 _ardbnz2phbasicincidentinformationarfidInfo = new RepoItemInfo(this, "Ardbnz2PHBasicIncidentInformationArfid", "?/?/fieldset/div[1]", 30000, null, "c2f3af0c-2992-4c43-8f7c-e11dc372fcda");
                 _ardbnstatusarfid7dfenumselInfo = new RepoItemInfo(this, "ArdbnStatusArfid7DfEnumSel", "?/?/fieldset/div[4]/fieldset/div[5]", 30000, null, "ce9409ac-3777-48b8-a70f-3ca8995c4041");
+                _pendingoriginalincidentInfo = new RepoItemInfo(this, "PendingOriginalIncident", "?/?/fieldset/div[4]/fieldset/div[6]/textarea[@title='Pending Original Incident']", 30000, null, "d853b0f7-eaf1-40b3-887d-083d6676470e");
+                _pendingInfo = new RepoItemInfo(this, "Pending", "?/?/fieldset/div[4]/fieldset/div[5]/div/input[@title='Pending']", 30000, null, "8b40b3d9-15b8-492b-bf26-3c617f689716");
             }
 
             /// <summary>
@@ -1326,6 +1408,54 @@ namespace BMCtest333
                     return _ardbnstatusarfid7dfenumselInfo;
                 }
             }
+
+            /// <summary>
+            /// The PendingOriginalIncident item.
+            /// </summary>
+            [RepositoryItem("d853b0f7-eaf1-40b3-887d-083d6676470e")]
+            public virtual Ranorex.TextAreaTag PendingOriginalIncident
+            {
+                get
+                {
+                    return _pendingoriginalincidentInfo.CreateAdapter<Ranorex.TextAreaTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PendingOriginalIncident item info.
+            /// </summary>
+            [RepositoryItemInfo("d853b0f7-eaf1-40b3-887d-083d6676470e")]
+            public virtual RepoItemInfo PendingOriginalIncidentInfo
+            {
+                get
+                {
+                    return _pendingoriginalincidentInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Pending item.
+            /// </summary>
+            [RepositoryItem("8b40b3d9-15b8-492b-bf26-3c617f689716")]
+            public virtual Ranorex.InputTag Pending
+            {
+                get
+                {
+                    return _pendingInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Pending item info.
+            /// </summary>
+            [RepositoryItemInfo("8b40b3d9-15b8-492b-bf26-3c617f689716")]
+            public virtual RepoItemInfo PendingInfo
+            {
+                get
+                {
+                    return _pendingInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -1334,7 +1464,6 @@ namespace BMCtest333
         [RepositoryFolder("45a32c9c-4a76-4c6c-b37f-f9fe06a80b0a")]
         public partial class FormContainerFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _falseInfo;
             RepoItemInfo _relationshipsInfo;
             RepoItemInfo _incidentInfo;
             RepoItemInfo _basetableinnerInfo;
@@ -1360,7 +1489,6 @@ namespace BMCtest333
             public FormContainerFolder(RepoGenBaseFolder parentFolder) :
                     base("FormContainer", ".//div[#'FormContainer']", parentFolder, 30000, null, false, "45a32c9c-4a76-4c6c-b37f-f9fe06a80b0a", "")
             {
-                _falseInfo = new RepoItemInfo(this, "False", "?/?/textarea[@wrap='soft']", 30000, null, "206f81af-eb2c-40eb-99b9-38216bf61a55");
                 _relationshipsInfo = new RepoItemInfo(this, "Relationships", ".//a[@innertext='Relationships']", 30000, null, "e85fe7bb-c2ea-4c88-baae-7794d159d1ca");
                 _incidentInfo = new RepoItemInfo(this, "Incident", "div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[3]/fieldset/div/div/fieldset[4]/div[2]/div/div/div[4]/fieldset/div/div[1]/textarea[@title='Incident']", 30000, null, "a5484ff4-cda1-49a8-bb89-03b27ca18ccb");
                 _basetableinnerInfo = new RepoItemInfo(this, "BaseTableInner", "div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[3]/fieldset/div/div/fieldset[4]/div[2]/div/div/div[2]/fieldset/div/div/div[2]/div/div[2]", 30000, null, "0c75f7b1-3fae-40cb-997f-8e8b2e37fbbe");
@@ -1402,30 +1530,6 @@ namespace BMCtest333
                 get
                 {
                     return _selfInfo;
-                }
-            }
-
-            /// <summary>
-            /// The False item.
-            /// </summary>
-            [RepositoryItem("206f81af-eb2c-40eb-99b9-38216bf61a55")]
-            public virtual Ranorex.TextAreaTag False
-            {
-                get
-                {
-                    return _falseInfo.CreateAdapter<Ranorex.TextAreaTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The False item info.
-            /// </summary>
-            [RepositoryItemInfo("206f81af-eb2c-40eb-99b9-38216bf61a55")]
-            public virtual RepoItemInfo FalseInfo
-            {
-                get
-                {
-                    return _falseInfo;
                 }
             }
 
