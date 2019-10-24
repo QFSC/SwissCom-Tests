@@ -456,6 +456,16 @@
             The mn_statusReason item info.
             </summary>
         </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.txt_Resolution">
+            <summary>
+            The txt_Resolution item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.txt_ResolutionInfo">
+            <summary>
+            The txt_Resolution item info.
+            </summary>
+        </member>
         <member name="T:BMCtest333.BMCtest333RepositoryFolders.BMCRemedySearchAppFolder">
             <summary>
             The BMCRemedySearchAppFolder folder.
@@ -714,16 +724,6 @@
         <member name="P:BMCtest333.BMCtest333RepositoryFolders.FormContainerFolder.SelfInfo">
             <summary>
             The Self item info.
-            </summary>
-        </member>
-        <member name="P:BMCtest333.BMCtest333RepositoryFolders.FormContainerFolder.False">
-            <summary>
-            The False item.
-            </summary>
-        </member>
-        <member name="P:BMCtest333.BMCtest333RepositoryFolders.FormContainerFolder.FalseInfo">
-            <summary>
-            The False item info.
             </summary>
         </member>
         <member name="P:BMCtest333.BMCtest333RepositoryFolders.FormContainerFolder.Relationships">
