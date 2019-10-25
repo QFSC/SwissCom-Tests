@@ -96,12 +96,12 @@ namespace BMCtest333
             repo.IncidentForm.txt_IncidentID.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to '$var_originIncident' on item 'IncidentForm.txt_IncidentID'.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(1));
-            repo.IncidentForm.txt_IncidentID.Element.SetAttributeValue("TagValue", var_originIncident);
-            Delay.Milliseconds(0);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$var_originIncident' with focus on 'IncidentForm.txt_IncidentID'.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(1));
+            repo.IncidentForm.txt_IncidentID.PressKeys(var_originIncident);
+            Delay.Milliseconds(20);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_search_IncidentAssoc' at Center.", repo.IncidentForm.btn_search_IncidentAssocInfo, new RecordItemIndex(2));
-            repo.IncidentForm.btn_search_IncidentAssoc.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_search' at Center.", repo.IncidentForm.btn_searchInfo, new RecordItemIndex(2));
+            repo.IncidentForm.btn_search.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));

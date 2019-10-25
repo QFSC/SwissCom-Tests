@@ -287,16 +287,18 @@ KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACoRxekDjMeT7nNFFNCZNRRRSGf
 /9k=
 			</helperscreenshot>
 		</mouseitem>
-		<setvaluerecorditem
-		attrname="TagValue"
+		<keysequenceitem
+		KeySequence=""
+		duration="20ms"
 		enabled="True"
 		optional="False"
-		searchpropertyid="a2844ab6-aeff-4524-b819-78e0b9ab9e0d">
+		presstime="20ms"
+		searchpropertyid="1d106607-2180-442f-8d75-2de337d33efc">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
-				target="AttributeValue"
+				target="KeySequence"
 				variable="var_originIncident">
 				</binding>
 			</bindings>
@@ -307,7 +309,7 @@ KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACoRxekDjMeT7nNFFNCZNRRRSGf
 					/dom[@domain='desktop-c80mesn']//div[@arid='1000000161']/textarea[@tagname='textarea']
 				</path>
 			</info>
-		</setvaluerecorditem>
+		</keysequenceitem>
 		<mouseitem
 		action="Click"
 		button="Left"

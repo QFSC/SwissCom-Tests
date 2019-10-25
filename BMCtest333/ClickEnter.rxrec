@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="c5544f9d-f001-4a43-899e-aa63eeb8f0e7"
+id="393d95d2-8a92-482f-a694-ecde11d26957"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,39 +19,24 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CloseBrowser"
+	classname="ClickEnter"
 	namespace="BMCtest333">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
-		<closeapprecorditem
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
 		enabled="True"
-		graceperiod="0ms"
-		method="CloseWindow"
 		optional="False"
-		searchpropertyid="704c9806-bcf2-4924-b77a-7e1e5228de1e">
+		presstime="20ms"
+		searchpropertyid="e94a446b-9b3e-4567-82ca-ec0e1234606b">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
-			<info
-			id="8902fdd3-5533-41a7-a25e-4265827b540b"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/dom[@domain='desktop-c80mesn']
-				</path>
-			</info>
-		</closeapprecorditem>
-		<explicitdelayitem
-		duration="1000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
+		</keysequenceitem>
 	</recorditems>
 	<repository
 	id="c96fe3b8-0ac8-477d-9c9e-bc0ec228fece"
@@ -68,7 +53,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		closeBrowser.UserCode.cs
+		ClickEnter.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

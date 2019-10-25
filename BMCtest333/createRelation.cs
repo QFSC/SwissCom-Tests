@@ -41,7 +41,7 @@ namespace BMCtest333
         /// </summary>
         public CreateRelation()
         {
-            var_originIncident = "";
+            var_originIncident = "INC000000000206";
         }
 
         /// <summary>
@@ -116,43 +116,39 @@ namespace BMCtest333
             repo.IncidentForm.btn_useAdvancedSearch.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.txt_IncidentID' at 69;12.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(6));
-            repo.IncidentForm.txt_IncidentID.Click("69;12");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentRelationshipSearch.txt_IncidentRelationship_IncidentID' at 69;12.", repo.IncidentRelationshipSearch.txt_IncidentRelationship_IncidentIDInfo, new RecordItemIndex(6));
+            repo.IncidentRelationshipSearch.txt_IncidentRelationship_IncidentID.Click("69;12");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Set value", "Setting attribute InnerText to '$var_originIncident' on item 'IncidentForm.txt_IncidentID'.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(7));
-            repo.IncidentForm.txt_IncidentID.Element.SetAttributeValue("InnerText", var_originIncident);
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$var_originIncident' with focus on 'IncidentRelationshipSearch.txt_IncidentRelationship_IncidentID'.", repo.IncidentRelationshipSearch.txt_IncidentRelationship_IncidentIDInfo, new RecordItemIndex(7));
+            repo.IncidentRelationshipSearch.txt_IncidentRelationship_IncidentID.PressKeys(var_originIncident);
+            Delay.Milliseconds(20);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentRelationshipSearch.txt_IncidentRelationship_searchValue' at Center.", repo.IncidentRelationshipSearch.txt_IncidentRelationship_searchValueInfo, new RecordItemIndex(8));
+            repo.IncidentRelationshipSearch.txt_IncidentRelationship_searchValue.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'INC000000000206'.", new RecordItemIndex(8));
-            Keyboard.Press("INC000000000206");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_search_IncidentAssoc' at Center.", repo.IncidentForm.btn_search_IncidentAssocInfo, new RecordItemIndex(9));
-            repo.IncidentForm.btn_search_IncidentAssoc.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.mn_relationshipType' at Center.", repo.IncidentForm.mn_relationshipTypeInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.mn_relationshipType' at Center.", repo.IncidentForm.mn_relationshipTypeInfo, new RecordItemIndex(9));
             repo.IncidentForm.mn_relationshipType.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Up}{Up}' with focus on 'IncidentForm.mn_relationshipType'.", repo.IncidentForm.mn_relationshipTypeInfo, new RecordItemIndex(11));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Up}{Up}' with focus on 'IncidentForm.mn_relationshipType'.", repo.IncidentForm.mn_relationshipTypeInfo, new RecordItemIndex(10));
             repo.IncidentForm.mn_relationshipType.PressKeys("{Up}{Up}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'IncidentForm.mn_relationshipType'.", repo.IncidentForm.mn_relationshipTypeInfo, new RecordItemIndex(12));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'IncidentForm.mn_relationshipType'.", repo.IncidentForm.mn_relationshipTypeInfo, new RecordItemIndex(11));
             repo.IncidentForm.mn_relationshipType.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_relateIncidentAssoc' at Center.", repo.IncidentForm.btn_relateIncidentAssocInfo, new RecordItemIndex(13));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_relateIncidentAssoc' at Center.", repo.IncidentForm.btn_relateIncidentAssocInfo, new RecordItemIndex(12));
             repo.IncidentForm.btn_relateIncidentAssoc.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(14));
-            Delay.Duration(1000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(13));
+            Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'IncidentForm.txt_searchValue'.", repo.IncidentForm.txt_searchValueInfo, new RecordItemIndex(15));
-            repo.IncidentForm.txt_searchValue.PressKeys("{Return}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(14));
+            Keyboard.Press("{Return}");
             Delay.Milliseconds(0);
             
         }

@@ -24,47 +24,34 @@ namespace BMCtest333
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The searchIncident recording.
+    ///The setStatusStatusReasonAndResolution recording.
     /// </summary>
-    [TestModule("91629695-572d-4c60-a28f-a4220d6c72fc", ModuleType.Recording, 1)]
-    public partial class searchIncident : ITestModule
+    [TestModule("ea0bdf29-3da4-4e6b-bd1d-ee73b6cdff29", ModuleType.Recording, 1)]
+    public partial class setStatusStatusReasonAndResolution : ITestModule
     {
         /// <summary>
         /// Holds an instance of the BMCtest333Repository repository.
         /// </summary>
         public static BMCtest333Repository repo = BMCtest333Repository.Instance;
 
-        static searchIncident instance = new searchIncident();
+        static setStatusStatusReasonAndResolution instance = new setStatusStatusReasonAndResolution();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public searchIncident()
+        public setStatusStatusReasonAndResolution()
         {
-            var_duplicIncident = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static searchIncident Instance
+        public static setStatusStatusReasonAndResolution Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _var_duplicIncident;
-
-        /// <summary>
-        /// Gets or sets the value of variable var_duplicIncident.
-        /// </summary>
-        [TestVariable("51e88388-6bdf-4a5d-8263-747829c2ed50")]
-        public string var_duplicIncident
-        {
-            get { return _var_duplicIncident; }
-            set { _var_duplicIncident = value; }
-        }
 
 #endregion
 
@@ -92,20 +79,33 @@ namespace BMCtest333
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.txt_IncidentID' at Center.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(0));
-            repo.IncidentForm.txt_IncidentID.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.mn_status' at Center.", repo.IncidentForm.mn_statusInfo, new RecordItemIndex(0));
+            repo.IncidentForm.mn_status.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$var_duplicIncident' with focus on 'IncidentForm.txt_IncidentID'.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(1));
-            repo.IncidentForm.txt_IncidentID.PressKeys(var_duplicIncident);
-            Delay.Milliseconds(20);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_search' at Center.", repo.IncidentForm.btn_searchInfo, new RecordItemIndex(2));
-            repo.IncidentForm.btn_search.Click();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Down}{Down}{Down}{Down}{Return}' with focus on 'IncidentForm.mn_status'.", repo.IncidentForm.mn_statusInfo, new RecordItemIndex(1));
+            repo.IncidentForm.mn_status.PressKeys("{Down}{Down}{Down}{Down}{Down}{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.mn_statusReason' at Center.", repo.IncidentForm.mn_statusReasonInfo, new RecordItemIndex(2));
+            repo.IncidentForm.mn_statusReason.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Down}{Down}{Return}' with focus on 'IncidentForm.mn_statusReason'.", repo.IncidentForm.mn_statusReasonInfo, new RecordItemIndex(3));
+            repo.IncidentForm.mn_statusReason.PressKeys("{Down}{Down}{Down}{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.txt_INC_Resolution' at Center.", repo.IncidentForm.txt_INC_ResolutionInfo, new RecordItemIndex(4));
+            repo.IncidentForm.txt_INC_Resolution.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'ResolveOriginalIncident' with focus on 'IncidentForm.txt_INC_Resolution'.", repo.IncidentForm.txt_INC_ResolutionInfo, new RecordItemIndex(5));
+            repo.IncidentForm.txt_INC_Resolution.PressKeys("ResolveOriginalIncident");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_save' at Center.", repo.IncidentForm.btn_saveInfo, new RecordItemIndex(6));
+            repo.IncidentForm.btn_save.Click();
+            Delay.Milliseconds(0);
             
         }
 

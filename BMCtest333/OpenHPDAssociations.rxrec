@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="c5544f9d-f001-4a43-899e-aa63eeb8f0e7"
+id="19f88308-2239-470d-9abe-1801934513b9"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,32 +19,42 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CloseBrowser"
+	classname="OpenHPDAssociations"
 	namespace="BMCtest333">
 	</codegen>
 	<variables>
+		<var
+		id="454a566b-dcdb-4ba7-af35-176f57c6aaaa"
+		name="Browser">
+			Chrome
+		</var>
 	</variables>
 	<recorditems>
-		<closeapprecorditem
+		<openwebsiterecorditem
+		args=""
+		browser="IE"
+		clearcache="False"
+		clearcookies="False"
 		enabled="True"
-		graceperiod="0ms"
-		method="CloseWindow"
-		optional="False"
-		searchpropertyid="704c9806-bcf2-4924-b77a-7e1e5228de1e">
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="BrowserName"
+				variable="Browser">
+				</binding>
 			</bindings>
-			<info
-			id="8902fdd3-5533-41a7-a25e-4265827b540b"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/dom[@domain='desktop-c80mesn']
-				</path>
-			</info>
-		</closeapprecorditem>
+			<url>
+				&quot;http://desktop-c80mesn/arsys/forms/desktop-c80mesn/HPD:Associations&quot;
+			</url>
+		</openwebsiterecorditem>
 		<explicitdelayitem
-		duration="1000ms"
+		duration="3000ms"
 		enabled="True"
 		optional="False">
 			<comment>
@@ -68,7 +78,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		closeBrowser.UserCode.cs
+		OpenHPDAssociations.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

@@ -151,6 +151,21 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:BMCtest333.BMCtest333Repository.HPD_Associations">
+            <summary>
+            The HPD_Associations folder.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333Repository.IncidentRelationshipSearch">
+            <summary>
+            The IncidentRelationshipSearch folder.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333Repository.IncidentModification">
+            <summary>
+            The IncidentModification folder.
+            </summary>
+        </member>
         <member name="P:BMCtest333.BMCtest333Repository.LoginPage">
             <summary>
             The LoginPage folder.
@@ -181,9 +196,134 @@
             The TortoiseGit folder.
             </summary>
         </member>
+        <member name="P:BMCtest333.BMCtest333Repository.Chrome">
+            <summary>
+            The Chrome folder.
+            </summary>
+        </member>
         <member name="T:BMCtest333.BMCtest333RepositoryFolders">
             <summary>
             Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.BMCtest333RepositoryFolders.HPD_AssociationsFolder">
+            <summary>
+            The HPD_AssociationsFolder folder.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.BMCtest333RepositoryFolders.HPD_AssociationsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HPD_Associations  folder.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.HPD_AssociationsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.HPD_AssociationsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.HPD_AssociationsFolder.txt_Entry2_RequestID">
+            <summary>
+            The txt_Entry2_RequestID item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.HPD_AssociationsFolder.txt_Entry2_RequestIDInfo">
+            <summary>
+            The txt_Entry2_RequestID item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.HPD_AssociationsFolder.txt_Entry1_RequestID">
+            <summary>
+            The txt_Entry1_RequestID item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.HPD_AssociationsFolder.txt_Entry1_RequestIDInfo">
+            <summary>
+            The txt_Entry1_RequestID item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.HPD_AssociationsFolder.mn_AssociationType">
+            <summary>
+            The mn_AssociationType item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.HPD_AssociationsFolder.mn_AssociationTypeInfo">
+            <summary>
+            The mn_AssociationType item info.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.BMCtest333RepositoryFolders.IncidentRelationshipSearchFolder">
+            <summary>
+            The IncidentRelationshipSearchFolder folder.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.BMCtest333RepositoryFolders.IncidentRelationshipSearchFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new IncidentRelationshipSearch  folder.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentRelationshipSearchFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentRelationshipSearchFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentRelationshipSearchFolder.txt_IncidentRelationship_searchValue">
+            <summary>
+            The txt_IncidentRelationship_searchValue item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentRelationshipSearchFolder.txt_IncidentRelationship_searchValueInfo">
+            <summary>
+            The txt_IncidentRelationship_searchValue item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentRelationshipSearchFolder.txt_IncidentRelationship_IncidentID">
+            <summary>
+            The txt_IncidentRelationship_IncidentID item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentRelationshipSearchFolder.txt_IncidentRelationship_IncidentIDInfo">
+            <summary>
+            The txt_IncidentRelationship_IncidentID item info.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.BMCtest333RepositoryFolders.IncidentModificationFolder">
+            <summary>
+            The IncidentModificationFolder folder.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.BMCtest333RepositoryFolders.IncidentModificationFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new IncidentModification  folder.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentModificationFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentModificationFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentModificationFolder.txt_Resolution">
+            <summary>
+            The txt_Resolution item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentModificationFolder.txt_ResolutionInfo">
+            <summary>
+            The txt_Resolution item info.
             </summary>
         </member>
         <member name="T:BMCtest333.BMCtest333RepositoryFolders.LoginPageFolder">
@@ -386,14 +526,14 @@
             The btn_useAdvancedSearch item info.
             </summary>
         </member>
-        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.btn_search_IncidentAssoc">
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.btn_search">
             <summary>
-            The btn_search_IncidentAssoc item.
+            The btn_search item.
             </summary>
         </member>
-        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.btn_search_IncidentAssocInfo">
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.btn_searchInfo">
             <summary>
-            The btn_search_IncidentAssoc item info.
+            The btn_search item info.
             </summary>
         </member>
         <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.tf_row_incidentID">
@@ -456,14 +596,14 @@
             The mn_statusReason item info.
             </summary>
         </member>
-        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.txt_Resolution">
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.txt_INC_Resolution">
             <summary>
-            The txt_Resolution item.
+            The txt_INC_Resolution item.
             </summary>
         </member>
-        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.txt_ResolutionInfo">
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.txt_INC_ResolutionInfo">
             <summary>
-            The txt_Resolution item info.
+            The txt_INC_Resolution item info.
             </summary>
         </member>
         <member name="T:BMCtest333.BMCtest333RepositoryFolders.BMCRemedySearchAppFolder">
@@ -544,6 +684,16 @@
         <member name="P:BMCtest333.BMCtest333RepositoryFolders.BMCRemedySearchAppFolder.NewItemInfo">
             <summary>
             The NewItem item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.BMCRemedySearchAppFolder.TBsearchsavechanges">
+            <summary>
+            The TBsearchsavechanges item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.BMCRemedySearchAppFolder.TBsearchsavechangesInfo">
+            <summary>
+            The TBsearchsavechanges item info.
             </summary>
         </member>
         <member name="P:BMCtest333.BMCtest333RepositoryFolders.BMCRemedySearchAppFolder.PageBodyPbChrome">
@@ -986,6 +1136,75 @@
             The ButtonOK item info.
             </summary>
         </member>
+        <member name="T:BMCtest333.BMCtest333RepositoryFolders.ChromeAppFolder">
+            <summary>
+            The ChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.BMCtest333RepositoryFolders.ChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Chrome  folder.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.ChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.ChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.ChromeAppFolder.PasteCtrlPlusV">
+            <summary>
+            The PasteCtrlPlusV item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.ChromeAppFolder.PasteCtrlPlusVInfo">
+            <summary>
+            The PasteCtrlPlusV item info.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.ClickEnter">
+             <summary>
+            The ClickEnter recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.ClickEnter.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.ClickEnter.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.ClickEnter.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.ClickEnter.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.ClickEnter.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.ClickEnter.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.ClickEnter.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:BMCtest333.CreateRelation">
              <summary>
             The createRelation recording.
@@ -1202,6 +1421,50 @@
             </summary>
         </member>
         <member name="P:BMCtest333.openHelpDeskForm.Browser">
+            <summary>
+            Gets or sets the value of variable Browser.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.OpenHPDAssociations">
+             <summary>
+            The OpenHPDAssociations recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.OpenHPDAssociations.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.OpenHPDAssociations.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.OpenHPDAssociations.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.OpenHPDAssociations.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.OpenHPDAssociations.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.OpenHPDAssociations.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.OpenHPDAssociations.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.OpenHPDAssociations.Browser">
             <summary>
             Gets or sets the value of variable Browser.
             </summary>
@@ -1533,6 +1796,84 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:BMCtest333.setStatusStatusReasonAndResolution">
+             <summary>
+            The setStatusStatusReasonAndResolution recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.setStatusStatusReasonAndResolution.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.setStatusStatusReasonAndResolution.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.setStatusStatusReasonAndResolution.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.setStatusStatusReasonAndResolution.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.setStatusStatusReasonAndResolution.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.setStatusStatusReasonAndResolution.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.setStatusStatusReasonAndResolution.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.validateDuplicate">
+             <summary>
+            The validateDuplicate recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.validateDuplicate.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateDuplicate.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateDuplicate.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.validateDuplicate.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateDuplicate.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.validateDuplicate.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.validateDuplicate.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:BMCtest333.validateFields">
              <summary>
             The validateFields recording.
@@ -1568,6 +1909,45 @@
             </summary>
         </member>
         <member name="P:BMCtest333.validateFields.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.validateOriginal">
+             <summary>
+            The validateOriginal recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.validateOriginal.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateOriginal.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateOriginal.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.validateOriginal.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateOriginal.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.validateOriginal.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.validateOriginal.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
@@ -1619,6 +1999,45 @@
         <member name="P:BMCtest333.validateOriginIncidentDetails.var_originStatusReason">
             <summary>
             Gets or sets the value of variable var_originStatusReason.
+            </summary>
+        </member>
+        <member name="T:BMCtest333.validateResolvedDuplicate">
+             <summary>
+            The validateResolvedDuplicate recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.validateResolvedDuplicate.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateResolvedDuplicate.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateResolvedDuplicate.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.validateResolvedDuplicate.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.validateResolvedDuplicate.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.validateResolvedDuplicate.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.validateResolvedDuplicate.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

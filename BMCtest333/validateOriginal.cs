@@ -24,47 +24,34 @@ namespace BMCtest333
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The searchIncident recording.
+    ///The validateOriginal recording.
     /// </summary>
-    [TestModule("91629695-572d-4c60-a28f-a4220d6c72fc", ModuleType.Recording, 1)]
-    public partial class searchIncident : ITestModule
+    [TestModule("9e6d5f53-f8a6-40b6-8337-b01712003779", ModuleType.Recording, 1)]
+    public partial class validateOriginal : ITestModule
     {
         /// <summary>
         /// Holds an instance of the BMCtest333Repository repository.
         /// </summary>
         public static BMCtest333Repository repo = BMCtest333Repository.Instance;
 
-        static searchIncident instance = new searchIncident();
+        static validateOriginal instance = new validateOriginal();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public searchIncident()
+        public validateOriginal()
         {
-            var_duplicIncident = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static searchIncident Instance
+        public static validateOriginal Instance
         {
             get { return instance; }
         }
 
 #region Variables
-
-        string _var_duplicIncident;
-
-        /// <summary>
-        /// Gets or sets the value of variable var_duplicIncident.
-        /// </summary>
-        [TestVariable("51e88388-6bdf-4a5d-8263-747829c2ed50")]
-        public string var_duplicIncident
-        {
-            get { return _var_duplicIncident; }
-            set { _var_duplicIncident = value; }
-        }
 
 #endregion
 
@@ -92,20 +79,29 @@ namespace BMCtest333
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.txt_IncidentID' at Center.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(0));
-            repo.IncidentForm.txt_IncidentID.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HPD_Associations.txt_Entry2_RequestID' at 99;10.", repo.HPD_Associations.txt_Entry2_RequestIDInfo, new RecordItemIndex(0));
+            repo.HPD_Associations.txt_Entry2_RequestID.Click("99;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$var_duplicIncident' with focus on 'IncidentForm.txt_IncidentID'.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(1));
-            repo.IncidentForm.txt_IncidentID.PressKeys(var_duplicIncident);
-            Delay.Milliseconds(20);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_search' at Center.", repo.IncidentForm.btn_searchInfo, new RecordItemIndex(2));
-            repo.IncidentForm.btn_search.Click();
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'INC000000000097' with focus on 'HPD_Associations.txt_Entry2_RequestID'.", repo.HPD_Associations.txt_Entry2_RequestIDInfo, new RecordItemIndex(1));
+            repo.HPD_Associations.txt_Entry2_RequestID.PressKeys("INC000000000097");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'HPD_Associations.txt_Entry1_RequestID' at 120;16.", repo.HPD_Associations.txt_Entry1_RequestIDInfo, new RecordItemIndex(2));
+            repo.HPD_Associations.txt_Entry1_RequestID.Click("120;16");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'INC000000000261' with focus on 'HPD_Associations.txt_Entry1_RequestID'.", repo.HPD_Associations.txt_Entry1_RequestIDInfo, new RecordItemIndex(3));
+            repo.HPD_Associations.txt_Entry1_RequestID.PressKeys("INC000000000261");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BMCRemedySearch.TBsearchsavechanges' at 12;8.", repo.BMCRemedySearch.TBsearchsavechangesInfo, new RecordItemIndex(4));
+            repo.BMCRemedySearch.TBsearchsavechanges.Click("12;8");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='Original of') on item 'HPD_Associations.mn_AssociationType'.", repo.HPD_Associations.mn_AssociationTypeInfo, new RecordItemIndex(5));
+            Validate.AttributeEqual(repo.HPD_Associations.mn_AssociationTypeInfo, "Value", "Original of");
+            Delay.Milliseconds(100);
             
         }
 

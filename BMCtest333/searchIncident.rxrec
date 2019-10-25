@@ -287,16 +287,18 @@ KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACoRxekDjMeT7nNFFNCZNRRRSGf
 /9k=
 			</helperscreenshot>
 		</mouseitem>
-		<setvaluerecorditem
-		attrname="TagValue"
+		<keysequenceitem
+		KeySequence=""
+		duration="20ms"
 		enabled="True"
 		optional="False"
-		searchpropertyid="a2844ab6-aeff-4524-b819-78e0b9ab9e0d">
+		presstime="20ms"
+		searchpropertyid="2fe9634b-9929-40a3-b6b5-9b8ff64fe6ea">
 			<comment>
 			</comment>
 			<bindings>
 				<binding
-				target="AttributeValue"
+				target="KeySequence"
 				variable="var_duplicIncident">
 				</binding>
 			</bindings>
@@ -307,7 +309,7 @@ KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACoRxekDjMeT7nNFFNCZNRRRSGf
 					/dom[@domain='desktop-c80mesn']//div[@arid='1000000161']/textarea[@tagname='textarea']
 				</path>
 			</info>
-		</setvaluerecorditem>
+		</keysequenceitem>
 		<mouseitem
 		action="Click"
 		button="Left"

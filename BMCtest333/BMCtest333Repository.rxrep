@@ -14,6 +14,93 @@ name="BMCtest333Repository">
 	usecache="True">
 		<folder
 		capname="webdocument"
+		id="7958c6e3-32db-40b1-a3e2-163b55a83dc5"
+		isrooted="True"
+		name="HPD_Associations"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="1a5bb701-8846-4811-89a4-a4cab51a122f"
+			name="txt_Entry2_RequestID"
+			refimgid="5c9b8b77-4b3c-4738-8a1f-ed6aaeff3547"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn']//textarea[@id&lt;'1000000205']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="3cfdb065-79e2-4525-834c-fc48785d3725"
+			name="txt_Entry1_RequestID"
+			refimgid="d21d841f-0a91-4d5d-b773-ccf736973fa0"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn']//textarea[@id&lt;'1000000204']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="94bd13d7-eb86-4b97-8eb1-cc48b36a2194"
+			name="mn_AssociationType"
+			refimgid="68e05da8-f0b8-432b-9a46-3613ab092aa3"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn']//input[@id&lt;'1000000208']
+			</item>
+			<basepath>
+				/dom[@domain='desktop-c80mesn']
+			</basepath>
+		</folder>
+		<folder
+		capname="webdocument"
+		id="cc39b646-3c9d-434b-a9a3-43f6f23ddc11"
+		isrooted="True"
+		name="IncidentRelationshipSearch"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="divtag"
+			id="fc88c520-6caa-4e0b-b94f-90c65e0c0c5c"
+			name="txt_IncidentRelationship_searchValue"
+			refimgid="3b9c73bc-951e-450d-8f5c-09fa2d990658"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn' and @browser='{Form:Incident Relationship Search - Google Chrome}']//div[@class='btntextdiv']//div[@innertext='Search']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="d0f142f5-ba2b-47dd-a16f-7a7e126b25fb"
+			name="txt_IncidentRelationship_IncidentID"
+			refimgid="c168ed65-f4e1-4d58-95da-a75ff4381175"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn' and @browser='{Form:Incident Relationship Search - Google Chrome}']//div[@arid='1000000161']/textarea[@tagname='textarea']
+			</item>
+			<basepath>
+				/dom[@domain='desktop-c80mesn' and @browser='{Form:Incident Relationship Search - Google Chrome}']
+			</basepath>
+		</folder>
+		<folder
+		capname="webdocument"
+		id="25ff2b1a-1f63-42a2-8fb4-b7e1f3766cac"
+		isrooted="True"
+		name="IncidentModification"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="206f81af-eb2c-40eb-99b9-38216bf61a55"
+			name="txt_Resolution"
+			refimgid="af0ef93e-2e42-4092-af3a-ca16ade743d4"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn' and @browser='{Form:Incident Modification - Google Chrome}']//div[@arid='1000000156']//textarea
+			</item>
+			<basepath>
+				/dom[@domain='desktop-c80mesn' and @browser='{Form:Incident Modification - Google Chrome}']
+			</basepath>
+		</folder>
+		<folder
+		capname="webdocument"
 		id="1d913ee0-31e4-4f30-b25f-ba0bce4d67c6"
 		isrooted="True"
 		name="LoginPage"
@@ -116,7 +203,7 @@ name="BMCtest333Repository">
 			name="btn_save"
 			refimgid="1fa02731-67a3-46fa-8c3b-c06cf536153c"
 			searchtimeout="30000ms">
-				/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[4]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/a[1]/?/?/div[@innertext='Save']
+				/dom[@domain='desktop-c80mesn']//div[@id='FormContainer']//div[@id&lt;'304255220']//div[@innertext='Save']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -176,10 +263,10 @@ name="BMCtest333Repository">
 			addcaps="unknown,webelement,divtag"
 			capname="divtag"
 			id="8192ba19-a5cd-4b29-b034-b3b90bf3cb54"
-			name="btn_search_IncidentAssoc"
+			name="btn_search"
 			refimgid="51f51c94-c63f-44f9-aafa-59d937f18e8c"
 			searchtimeout="30000ms">
-				/dom[@domain='desktop-c80mesn']//div[@class='btntextdiv']/div[@innertext='Search']
+				/dom[@domain='desktop-c80mesn']//div[#'FormContainer']//div[@innertext='Search']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -188,7 +275,7 @@ name="BMCtest333Repository">
 			name="tf_row_incidentID"
 			refimgid="d7980a47-830c-4eeb-8806-45b7d963557a"
 			searchtimeout="30000ms">
-				/dom[@domain='desktop-c80mesn']//div[@id='WIN_0_302078000']//span[@innertext='INC000000000206']
+				/dom[@domain='desktop-c80mesn']//div[@id&lt;'302078000']//span[@innertext='INC000000000206']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"
@@ -236,8 +323,8 @@ name="BMCtest333Repository">
 			<item
 			addcaps="unknown,webelement,textareatag"
 			capname="textareatag"
-			id="206f81af-eb2c-40eb-99b9-38216bf61a55"
-			name="txt_Resolution"
+			id="7c4aa71a-8ad4-4def-88d4-aa515b3e422a"
+			name="txt_INC_Resolution"
 			refimgid="af0ef93e-2e42-4092-af3a-ca16ade743d4"
 			searchtimeout="30000ms">
 				/dom[@domain='desktop-c80mesn']//div[@arid='1000000156']//textarea
@@ -641,6 +728,16 @@ name="BMCtest333Repository">
 			searchtimeout="30000ms">
 				/dom[@domain='desktop-c80mesn']/element
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="3987624e-684d-4a82-b5f3-cd8c4078c9c3"
+			name="TBsearchsavechanges"
+			refimgid="7999b2a8-dd0d-428c-bd42-cbe746475c2a"
+			refpath="/dom[@domain='desktop-c80mesn']//div[#'TBsearchsavechanges']"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn']//div[#'TBsearchsavechanges']
+			</item>
 			<basepath>
 				/dom[@domain='desktop-c80mesn']
 			</basepath>
@@ -767,6 +864,44 @@ Mi8GXpYQXi6DDr4WChQKn9FjoElBqqWTsh91MYFiPB5HPp8H409UYw5segWx2RSW0mtgGAbNbZrJ
 Zrn37IUm5HI58EV9Ph9UZP83t9uN6t+HVnlvg6jto+l3XpnyBeHxeNDZY2Ra5Iah7e1tJJNJ0DQN
 9UNT1j3mQXtH15c2lfGYqP1Jj951/eYdbbBFYTovlUrruiingxoY/Kp80Ffu6LI2VsVTbareg+W/
 wT+garHD4vRfQBC/Ad24ifNaggGrAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="c1343d9b-4edd-4c9b-b7cb-b3ed53e09c71"
+		isrooted="True"
+		name="Chrome"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="02a8142a-5f05-4722-b0a2-65bede2ae30d"
+			name="PasteCtrlPlusV"
+			refimgid="24212c9a-7b9a-47f7-ac26-f81647611d58"
+			refpath="/form[@title='']/container/menubar/container/contextmenu/menuitem[@accessiblename='Paste Ctrl+V']"
+			searchtimeout="30000ms">
+				/form[@title='']/container[@accessiblename='']/menubar[@accessiblename='']//menuitem[@accessiblename='Paste Ctrl+V']
+			</item>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<basepath>

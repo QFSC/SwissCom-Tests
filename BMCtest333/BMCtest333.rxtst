@@ -3,6 +3,14 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testcase
+			id="07f6c925-cf7b-4afb-823d-ec768f94377c"
+			name="validateResolvedDuplicate">
+			</testcase>
+			<testcase
+			id="0f3209dd-d6f0-4fa5-b98b-c09a9b821ba4"
+			name="validateRelation">
+			</testcase>
+			<testcase
 			id="14144de6-8b86-418e-a2ad-4ad519f5da33"
 			name="createRelation">
 			</testcase>
@@ -31,15 +39,29 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="19b89c6e-51dc-4ef9-b9cc-cf65c56dfc1d"
-			name="CloseBrowser"
-			ref="c5544f9d-f001-4a43-899e-aa63eeb8f0e7"
+			id="1a1ccecf-7a29-4e24-846c-58253a6d7f51"
+			name="OpenHPDAssociations"
+			ref="19f88308-2239-470d-9abe-1801934513b9"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="Browser"
+					datasourceid="578cc54c-cb22-4aa1-848e-0afb4d32ff89"
+					variableid="454a566b-dcdb-4ba7-af35-176f57c6aaaa"
+					variablename="Browser">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="1fdfb7fd-f6c6-404c-bc99-fac5e975cb08"
 			name="CloseBrowser"
 			ref="c5544f9d-f001-4a43-899e-aa63eeb8f0e7"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="21ff4057-de7c-4853-a252-4dba5968dd04"
+			name="validateOriginal"
+			ref="9e6d5f53-f8a6-40b6-8337-b01712003779"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -61,6 +83,12 @@
 					variablename="var_originStatusReason">
 					</var>
 				</databinding>
+			</testmodule>
+			<testmodule
+			id="30913f1b-d593-4661-9ee5-c88df18ccafb"
+			name="validateResolvedDuplicate"
+			ref="1948bc6c-5730-461a-a23b-0b97a896c6cb"
+			type="Recording">
 			</testmodule>
 			<testmodule
 			id="31631ea9-7d0b-47d4-b903-99737f930905"
@@ -92,6 +120,10 @@
 			ref="2134efa3-d470-41a4-9ed2-416bea180136"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="4a040fa2-495b-4d1a-9461-ef76ff803e22"
+			name="ResolveOriginal">
+			</testcase>
 			<testmodule
 			id="4f8c414a-bdf2-4df0-8a93-77b6d24147e2"
 			name="CloseBrowser"
@@ -127,7 +159,7 @@
 					</param>
 					<param
 					name="originIncident"
-					value="INC000000000206">
+					value="INC000000000221">
 					</param>
 					<param
 					name="duplicIncident"
@@ -154,9 +186,57 @@
 			name="validateOriginal">
 			</testcase>
 			<testmodule
+			id="65174c7b-21bb-4b3b-a751-5935e57d5a13"
+			name="searchIncident"
+			ref="91629695-572d-4c60-a28f-a4220d6c72fc"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="duplicIncident"
+					datasourceid="578cc54c-cb22-4aa1-848e-0afb4d32ff89"
+					variableid="51e88388-6bdf-4a5d-8263-747829c2ed50"
+					variablename="var_duplicIncident">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="6765fcf7-0152-4072-b725-1865e37bbd5e"
+			name="searchOriginIncident"
+			ref="60d40e76-40ab-4cbe-8897-2ed84e607e7d"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="originIncident"
+					datasourceid="578cc54c-cb22-4aa1-848e-0afb4d32ff89"
+					variableid="2c63e07d-7a18-4629-96f9-3ab2eb3033f7"
+					variablename="var_originIncident">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="6b32d6b9-f972-431a-bb12-45258f5bbe30"
+			name="openHelpDeskForm"
+			ref="327a8f44-5778-47cd-8ed8-f6eea8913af1"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Browser"
+					datasourceid="578cc54c-cb22-4aa1-848e-0afb4d32ff89"
+					variableid="4bfc0d67-f0c5-417c-8c90-cc4f98dbb9c7"
+					variablename="Browser">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="776c64da-3aca-4951-8c82-a9a810de36ad"
 			name="validateFields"
 			ref="90f9920b-53fb-4837-9df4-af6594adcb89"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="777ecfb0-f667-4058-938a-54bca15345a0"
+			name="CloseBrowser"
+			ref="c5544f9d-f001-4a43-899e-aa63eeb8f0e7"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -188,6 +268,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="88c29d92-119d-4012-a4eb-39efca045680"
+			name="CloseBrowser"
+			ref="c5544f9d-f001-4a43-899e-aa63eeb8f0e7"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="8ce7d35e-86f3-4ef3-b004-d48fc175d080"
 			name="setAssignedGroup"
 			ref="1fad3c84-8c2b-47a1-b29f-75b61a7f78c1"
@@ -213,6 +299,20 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
+			id="92aaed6e-3e74-4c52-8707-26c3b3303910"
+			name="OpenHPDAssociations"
+			ref="19f88308-2239-470d-9abe-1801934513b9"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Browser"
+					datasourceid="578cc54c-cb22-4aa1-848e-0afb4d32ff89"
+					variableid="454a566b-dcdb-4ba7-af35-176f57c6aaaa"
+					variablename="Browser">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="9999add2-021a-4619-9c85-2f3a817a5e85"
 			name="getIncidentDetails"
 			ref="c315e65f-c4c7-4669-bcb0-0a869556f2f0"
@@ -232,10 +332,28 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="a26bcb07-7e92-4e8b-8fcc-2e5863cc4e41"
+			name="setStatusStatusReasonAndResolution"
+			ref="ea0bdf29-3da4-4e6b-bd1d-ee73b6cdff29"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="a53b4095-5a0e-4ad4-94de-a60bfb7fa02a"
 			name="getOriginIncidentDetails">
 			</testcase>
+			<testmodule
+			id="a6478aeb-f23a-45b1-ac09-d7ac830034ae"
+			name="CloseBrowser"
+			ref="c5544f9d-f001-4a43-899e-aa63eeb8f0e7"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="ae9d41a0-dfcb-462d-9432-e3d898e8d990"
+			name="validateDuplicate"
+			ref="9ca55a8b-862f-4365-8550-440aa11cebbb"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="b06b4f6c-bf63-4e5b-a1f4-e66d1ceec22c"
 			name="openHelpDeskForm"
@@ -277,6 +395,18 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="cabb5043-f10c-4ae9-a30e-1b3b7bd70709"
+			name="CloseBrowser"
+			ref="c5544f9d-f001-4a43-899e-aa63eeb8f0e7"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="cb29bb7d-7558-48b6-9335-03194f983a01"
+			name="ClickEnter"
+			ref="393d95d2-8a92-482f-a694-ecde11d26957"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="cdd54cd0-745a-41c9-bc8a-32bc8565bdbb"
 			name="openHelpDeskForm"
 			ref="327a8f44-5778-47cd-8ed8-f6eea8913af1"
@@ -305,6 +435,12 @@
 				</databinding>
 			</testmodule>
 			<testmodule
+			id="da5f14c8-0aff-4635-867f-6b0ba0703393"
+			name="CloseBrowser"
+			ref="c5544f9d-f001-4a43-899e-aa63eeb8f0e7"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="e10b4097-451e-414a-8002-95d07b4846a2"
 			name="searchIncident"
 			ref="91629695-572d-4c60-a28f-a4220d6c72fc"
@@ -324,6 +460,20 @@
 			ref="d8c1847d-ae45-4e39-b9a7-5ec5d282a53a"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="f4898dba-3fa6-4632-a9fe-d7b5e38f8750"
+			name="openHelpDeskForm"
+			ref="327a8f44-5778-47cd-8ed8-f6eea8913af1"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="Browser"
+					datasourceid="578cc54c-cb22-4aa1-848e-0afb4d32ff89"
+					variableid="4bfc0d67-f0c5-417c-8c90-cc4f98dbb9c7"
+					variablename="Browser">
+					</var>
+				</databinding>
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -339,14 +489,14 @@
 						id="53af132a-6df7-4f22-b2e4-a6772b7dfc3c"
 						name="LoginRemedy">
 						</testmodule>
-						<testmodule
-						id="4f8c414a-bdf2-4df0-8a93-77b6d24147e2"
-						name="CloseBrowser">
-						</testmodule>
 					</testcase>
 					<testcase
 					id="a53b4095-5a0e-4ad4-94de-a60bfb7fa02a"
 					name="getOriginIncidentDetails">
+						<testmodule
+						id="4f8c414a-bdf2-4df0-8a93-77b6d24147e2"
+						name="CloseBrowser">
+						</testmodule>
 						<testmodule
 						id="86130d96-98f7-4c37-893c-86bbd9494f17"
 						name="openHelpDeskForm">
@@ -359,14 +509,14 @@
 						id="9999add2-021a-4619-9c85-2f3a817a5e85"
 						name="getIncidentDetails">
 						</testmodule>
-						<testmodule
-						id="1fdfb7fd-f6c6-404c-bc99-fac5e975cb08"
-						name="CloseBrowser">
-						</testmodule>
 					</testcase>
 					<testcase
 					id="162e1058-f324-4cc2-afad-2a52c1a5ff45"
 					name="createIncident">
+						<testmodule
+						id="1fdfb7fd-f6c6-404c-bc99-fac5e975cb08"
+						name="CloseBrowser">
+						</testmodule>
 						<testmodule
 						id="b06b4f6c-bf63-4e5b-a1f4-e66d1ceec22c"
 						name="openHelpDeskForm">
@@ -407,8 +557,36 @@
 						id="802c64d7-f30b-4372-a1b5-5df27fe6f758"
 						name="CreateRelation">
 						</testmodule>
+					</testcase>
+					<testcase
+					id="0f3209dd-d6f0-4fa5-b98b-c09a9b821ba4"
+					name="validateRelation">
 						<testmodule
-						id="19b89c6e-51dc-4ef9-b9cc-cf65c56dfc1d"
+						id="da5f14c8-0aff-4635-867f-6b0ba0703393"
+						name="CloseBrowser">
+						</testmodule>
+						<testmodule
+						id="92aaed6e-3e74-4c52-8707-26c3b3303910"
+						name="OpenHPDAssociations">
+						</testmodule>
+						<testmodule
+						id="21ff4057-de7c-4853-a252-4dba5968dd04"
+						name="validateOriginal">
+						</testmodule>
+						<testmodule
+						id="777ecfb0-f667-4058-938a-54bca15345a0"
+						name="CloseBrowser">
+						</testmodule>
+						<testmodule
+						id="1a1ccecf-7a29-4e24-846c-58253a6d7f51"
+						name="OpenHPDAssociations">
+						</testmodule>
+						<testmodule
+						id="ae9d41a0-dfcb-462d-9432-e3d898e8d990"
+						name="validateDuplicate">
+						</testmodule>
+						<testmodule
+						id="a6478aeb-f23a-45b1-ac09-d7ac830034ae"
 						name="CloseBrowser">
 						</testmodule>
 					</testcase>
@@ -427,14 +605,14 @@
 						id="776c64da-3aca-4951-8c82-a9a810de36ad"
 						name="validateFields">
 						</testmodule>
-						<testmodule
-						id="5c4ab977-2d32-4471-9436-7a0305b37bc1"
-						name="CloseBrowser">
-						</testmodule>
 					</testcase>
 					<testcase
 					id="621c0cb0-0662-4e2f-be01-65007c42e2bf"
 					name="validateOriginal">
+						<testmodule
+						id="5c4ab977-2d32-4471-9436-7a0305b37bc1"
+						name="CloseBrowser">
+						</testmodule>
 						<testmodule
 						id="c8cd785b-fa2e-4258-a4ce-f8022b2ca8c7"
 						name="openHelpDeskForm">
@@ -447,8 +625,52 @@
 						id="27f41460-d7e8-463d-9323-233cceeedc9a"
 						name="validateOriginIncidentDetails">
 						</testmodule>
+					</testcase>
+					<testcase
+					id="4a040fa2-495b-4d1a-9461-ef76ff803e22"
+					name="ResolveOriginal">
 						<testmodule
 						id="b4b04fe3-4469-4453-b824-4fad84fa178c"
+						name="CloseBrowser">
+						</testmodule>
+						<testmodule
+						id="6b32d6b9-f972-431a-bb12-45258f5bbe30"
+						name="openHelpDeskForm">
+						</testmodule>
+						<testmodule
+						id="6765fcf7-0152-4072-b725-1865e37bbd5e"
+						name="searchOriginIncident">
+						</testmodule>
+						<testmodule
+						id="a26bcb07-7e92-4e8b-8fcc-2e5863cc4e41"
+						name="setStatusStatusReasonAndResolution">
+						</testmodule>
+						<testmodule
+						id="88c29d92-119d-4012-a4eb-39efca045680"
+						name="CloseBrowser">
+						</testmodule>
+						<testmodule
+						id="cb29bb7d-7558-48b6-9335-03194f983a01"
+						name="ClickEnter">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="07f6c925-cf7b-4afb-823d-ec768f94377c"
+					name="validateResolvedDuplicate">
+						<testmodule
+						id="f4898dba-3fa6-4632-a9fe-d7b5e38f8750"
+						name="openHelpDeskForm">
+						</testmodule>
+						<testmodule
+						id="65174c7b-21bb-4b3b-a751-5935e57d5a13"
+						name="searchIncident">
+						</testmodule>
+						<testmodule
+						id="30913f1b-d593-4661-9ee5-c88df18ccafb"
+						name="validateResolvedDuplicate">
+						</testmodule>
+						<testmodule
+						id="cabb5043-f10c-4ae9-a30e-1b3b7bd70709"
 						name="CloseBrowser">
 						</testmodule>
 					</testcase>
@@ -463,6 +685,12 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="07f6c925-cf7b-4afb-823d-ec768f94377c">
+			</testcontainer>
+			<testcontainer
+			id="0f3209dd-d6f0-4fa5-b98b-c09a9b821ba4">
+			</testcontainer>
+			<testcontainer
 			id="14144de6-8b86-418e-a2ad-4ad519f5da33">
 			</testcontainer>
 			<testcontainer
@@ -470,6 +698,9 @@
 			</testcontainer>
 			<testcontainer
 			id="3d505d05-35e6-40aa-961a-88d4295c5d8b">
+			</testcontainer>
+			<testcontainer
+			id="4a040fa2-495b-4d1a-9461-ef76ff803e22">
 			</testcontainer>
 			<testcontainer
 			id="52245eb5-dedf-43f7-b12b-3ffb47c3b62b">

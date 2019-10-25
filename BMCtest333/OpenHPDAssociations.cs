@@ -24,46 +24,44 @@ namespace BMCtest333
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The searchIncident recording.
+    ///The OpenHPDAssociations recording.
     /// </summary>
-    [TestModule("91629695-572d-4c60-a28f-a4220d6c72fc", ModuleType.Recording, 1)]
-    public partial class searchIncident : ITestModule
+    [TestModule("19f88308-2239-470d-9abe-1801934513b9", ModuleType.Recording, 1)]
+    public partial class OpenHPDAssociations : ITestModule
     {
         /// <summary>
         /// Holds an instance of the BMCtest333Repository repository.
         /// </summary>
         public static BMCtest333Repository repo = BMCtest333Repository.Instance;
 
-        static searchIncident instance = new searchIncident();
+        static OpenHPDAssociations instance = new OpenHPDAssociations();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public searchIncident()
+        public OpenHPDAssociations()
         {
-            var_duplicIncident = "";
+            Browser = "Chrome";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static searchIncident Instance
+        public static OpenHPDAssociations Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
-        string _var_duplicIncident;
-
         /// <summary>
-        /// Gets or sets the value of variable var_duplicIncident.
+        /// Gets or sets the value of variable Browser.
         /// </summary>
-        [TestVariable("51e88388-6bdf-4a5d-8263-747829c2ed50")]
-        public string var_duplicIncident
+        [TestVariable("454a566b-dcdb-4ba7-af35-176f57c6aaaa")]
+        public string Browser
         {
-            get { return _var_duplicIncident; }
-            set { _var_duplicIncident = value; }
+            get { return repo.Browser; }
+            set { repo.Browser = value; }
         }
 
 #endregion
@@ -92,20 +90,12 @@ namespace BMCtest333
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.txt_IncidentID' at Center.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(0));
-            repo.IncidentForm.txt_IncidentID.Click();
+            Report.Log(ReportLevel.Info, "Website", "Opening web site '\"http://desktop-c80mesn/arsys/forms/desktop-c80mesn/HPD:Associations\"' with browser specified by variable $Browser in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("\"http://desktop-c80mesn/arsys/forms/desktop-c80mesn/HPD:Associations\"", Browser, "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$var_duplicIncident' with focus on 'IncidentForm.txt_IncidentID'.", repo.IncidentForm.txt_IncidentIDInfo, new RecordItemIndex(1));
-            repo.IncidentForm.txt_IncidentID.PressKeys(var_duplicIncident);
-            Delay.Milliseconds(20);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_search' at Center.", repo.IncidentForm.btn_searchInfo, new RecordItemIndex(2));
-            repo.IncidentForm.btn_search.Click();
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
-            Delay.Duration(5000, false);
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(1));
+            Delay.Duration(3000, false);
             
         }
 
