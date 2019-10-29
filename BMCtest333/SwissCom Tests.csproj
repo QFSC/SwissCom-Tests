@@ -576,7 +576,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>93bcf9d6-d71d-429b-a90a-ca2dd8056d38</id>
     </Content>
-    <Content Include="BMCtest333.rxtst">
+    <Content Include="SwissCom_Test.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>b00be28c-1980-42a8-948a-c15d2a4dcf8b</id>
     </Content>
