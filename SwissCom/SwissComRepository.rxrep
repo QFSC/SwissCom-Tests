@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="SwissComRepository"
+id="463ebe46-e91a-4725-a55f-af6dc9071cfc">
+  <codegen
+  classname="SwissComRepository"
+  namespace="SwissCom"/>
+  <rootfolder
+  name="Root"
+  id="2987f7cf-f678-4558-8313-29bae9d1abe9"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

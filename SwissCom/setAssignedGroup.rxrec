@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ac4cf278-ff43-4ede-af29-939883015afe"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="setAssignedGroup"
+	namespace="SwissCom">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="37c23ea1-533b-4b94-95c4-3345dad34544"
+		sx="370"
+		sy="651"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="766f03f4-ae29-417d-8c8f-adebd80ec4bc"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/fieldset/div[@id&lt;'304196800']/fieldset/div[1]/textarea[@armenu&gt;'CTM:SGP']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="service desk"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		repoItemActivation="EnsureVisible"
+		searchpropertyid="a4611ff5-37d7-4384-ba79-69bd11b80641">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="766f03f4-ae29-417d-8c8f-adebd80ec4bc"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/fieldset/div[4]/fieldset/div[1]/textarea[@id&lt;'1000000217']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		repoItemActivation="EnsureVisible"
+		searchpropertyid="f4fb1b0f-eea4-41f0-9949-0b516a6225d6">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="766f03f4-ae29-417d-8c8f-adebd80ec4bc"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/div[@id='FormApp']/div[@id='FormContainer']/div[4]/div/div/div[2]/fieldset/div/div/div/div/div[2]/fieldset/div/?/?/fieldset/div[4]/fieldset/div[1]/textarea[@id&lt;'1000000217']
+				</path>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="76435aa3-de83-4a93-bb81-1d573eec7fa2"
+		sx="230"
+		sy="965"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bef213aa-acdb-432c-a249-be299a6b44ee"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="firefoxweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="211,958,50,13"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						f1
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						f1
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[4]/div/div/div[3]/fieldset/div/div/div/div/div[2]/fieldset/div/a[1]/?/?/div[@innertext='Save']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="bc4febd0-5c95-4581-a462-b18f0deba805">
+				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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="185edda7-ab85-4da6-9901-507ddb0f95c5"
+	name="SwissComRepo"
+	relativepath="SwissComRepo.rxrep">
+		<codegen
+		classname="SwissComRepo"
+		namespace="SwissCom">
+		</codegen>
+		<rootfolder
+		id="05f39afb-bbd5-40dd-b9b1-a986a7574ee7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		setAssignedGroup.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

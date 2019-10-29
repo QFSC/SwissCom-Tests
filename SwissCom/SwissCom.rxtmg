@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="SwissCom"
+      id="639fa5b6-3f8f-4d84-8964-65d4db42588d"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="SwissCom"
+      id="639fa5b6-3f8f-4d84-8964-65d4db42588d"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
