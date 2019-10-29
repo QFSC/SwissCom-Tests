@@ -52,6 +52,18 @@ mode="Global">
 			<bindings>
 			</bindings>
 		</explicitdelayitem>
+		<keysequenceitem
+		KeySequence="{Return}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="222ff552-d477-41b0-bf63-811dd65254f2">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
 	</recorditems>
 	<repository
 	id="185edda7-ab85-4da6-9901-507ddb0f95c5"

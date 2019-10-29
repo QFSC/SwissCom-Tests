@@ -86,6 +86,10 @@ namespace SwissCom
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
             Delay.Duration(1000, false);
             
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}'.", new RecordItemIndex(2));
+            Keyboard.Press("{Return}");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
