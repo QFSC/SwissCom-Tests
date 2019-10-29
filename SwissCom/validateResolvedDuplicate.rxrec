@@ -28,7 +28,7 @@ mode="Global">
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="4daf806b-252e-42f3-b841-46a61437e58c">
 			<comment>
@@ -357,7 +357,7 @@ RQB//9k=
 		<validationitem
 		action="AttributeEqual"
 		duration="100ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		searchpropertyid="4daf806b-252e-42f3-b841-46a61437e58c">
 			<comment>

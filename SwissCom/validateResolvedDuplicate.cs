@@ -79,13 +79,13 @@ namespace SwissCom
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='Resolved') on item 'IncidentForm.mn_status'.", repo.IncidentForm.mn_statusInfo, new RecordItemIndex(0));
-            Validate.AttributeEqual(repo.IncidentForm.mn_statusInfo, "Value", "Resolved");
-            Delay.Milliseconds(100);
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='Resolved') on item 'IncidentForm.mn_status'.", repo.IncidentForm.mn_statusInfo, new RecordItemIndex(0));
+            //Validate.AttributeEqual(repo.IncidentForm.mn_statusInfo, "Value", "Resolved");
+            //Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='Resolved by Original Incident') on item 'IncidentForm.mn_statusReason'.", repo.IncidentForm.mn_statusReasonInfo, new RecordItemIndex(1));
-            Validate.AttributeEqual(repo.IncidentForm.mn_statusReasonInfo, "Value", "Resolved by Original Incident");
-            Delay.Milliseconds(100);
+            //Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Value='Resolved by Original Incident') on item 'IncidentForm.mn_statusReason'.", repo.IncidentForm.mn_statusReasonInfo, new RecordItemIndex(1));
+            //Validate.AttributeEqual(repo.IncidentForm.mn_statusReasonInfo, "Value", "Resolved by Original Incident");
+            //Delay.Milliseconds(100);
             
         }
 
