@@ -20,3 +20,7 @@ C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\
 C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\obj\x86\Debug\BMCtest333.csprojResolveAssemblyReference.cache
 C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\obj\x86\Debug\BMCtest333.exe
 C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\obj\x86\Debug\BMCtest333.pdb
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\BMCtest333\BMCtest333\bin\Debug\Ranorex Automation Helpers.xml

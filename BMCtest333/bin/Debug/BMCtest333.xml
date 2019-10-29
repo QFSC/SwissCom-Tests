@@ -296,6 +296,16 @@
             The txt_IncidentRelationship_IncidentID item info.
             </summary>
         </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentRelationshipSearchFolder.btn_useAdvancedSearch">
+            <summary>
+            The btn_useAdvancedSearch item.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentRelationshipSearchFolder.btn_useAdvancedSearchInfo">
+            <summary>
+            The btn_useAdvancedSearch item info.
+            </summary>
+        </member>
         <member name="T:BMCtest333.BMCtest333RepositoryFolders.IncidentModificationFolder">
             <summary>
             The IncidentModificationFolder folder.
@@ -514,16 +524,6 @@
         <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.txt_searchValueInfo">
             <summary>
             The txt_searchValue item info.
-            </summary>
-        </member>
-        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.btn_useAdvancedSearch">
-            <summary>
-            The btn_useAdvancedSearch item.
-            </summary>
-        </member>
-        <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.btn_useAdvancedSearchInfo">
-            <summary>
-            The btn_useAdvancedSearch item info.
             </summary>
         </member>
         <member name="P:BMCtest333.BMCtest333RepositoryFolders.IncidentFormFolder.btn_search">
@@ -1298,6 +1298,11 @@
             Gets or sets the value of variable var_StatusReason.
             </summary>
         </member>
+        <member name="P:BMCtest333.getIncidentDetails.var2_StatusReason">
+            <summary>
+            Gets or sets the value of variable var2_StatusReason.
+            </summary>
+        </member>
         <member name="T:BMCtest333.GetIncidentID">
              <summary>
             The GetIncidentID recording.
@@ -1835,6 +1840,45 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="T:BMCtest333.userCodeValidateOriginal">
+             <summary>
+            The userCodeValidateOriginal recording.
+             </summary>
+        </member>
+        <member name="F:BMCtest333.userCodeValidateOriginal.repo">
+            <summary>
+            Holds an instance of the BMCtest333Repository repository.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.userCodeValidateOriginal.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.userCodeValidateOriginal.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:BMCtest333.userCodeValidateOriginal.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:BMCtest333.userCodeValidateOriginal.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:BMCtest333.userCodeValidateOriginal.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.userCodeValidateOriginal.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:BMCtest333.validateDuplicate">
              <summary>
             The validateDuplicate recording.
@@ -1996,9 +2040,14 @@
             Gets or sets the value of variable var_originStatus.
             </summary>
         </member>
-        <member name="P:BMCtest333.validateOriginIncidentDetails.var_originStatusReason">
+        <member name="P:BMCtest333.validateOriginIncidentDetails.var_statusReason2">
             <summary>
-            Gets or sets the value of variable var_originStatusReason.
+            Gets or sets the value of variable var_statusReason2.
+            </summary>
+        </member>
+        <member name="P:BMCtest333.validateOriginIncidentDetails.var_statusReason1">
+            <summary>
+            Gets or sets the value of variable var_statusReason1.
             </summary>
         </member>
         <member name="T:BMCtest333.validateResolvedDuplicate">

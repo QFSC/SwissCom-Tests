@@ -328,15 +328,17 @@ namespace BMCtest333
         {
             RepoItemInfo _txt_incidentrelationship_searchvalueInfo;
             RepoItemInfo _txt_incidentrelationship_incidentidInfo;
+            RepoItemInfo _btn_useadvancedsearchInfo;
 
             /// <summary>
             /// Creates a new IncidentRelationshipSearch  folder.
             /// </summary>
             public IncidentRelationshipSearchFolder(RepoGenBaseFolder parentFolder) :
-                    base("IncidentRelationshipSearch", "/dom[@domain='desktop-c80mesn' and @browser='{Form:Incident Relationship Search - Google Chrome}']", parentFolder, 30000, null, false, "cc39b646-3c9d-434b-a9a3-43f6f23ddc11", "")
+                    base("IncidentRelationshipSearch", "/dom[@domain='desktop-c80mesn' and @caption='Incident Relationship Search']", parentFolder, 30000, null, false, "cc39b646-3c9d-434b-a9a3-43f6f23ddc11", "")
             {
                 _txt_incidentrelationship_searchvalueInfo = new RepoItemInfo(this, "txt_IncidentRelationship_searchValue", ".//div[@class='btntextdiv']//div[@innertext='Search']", 30000, null, "fc88c520-6caa-4e0b-b94f-90c65e0c0c5c");
                 _txt_incidentrelationship_incidentidInfo = new RepoItemInfo(this, "txt_IncidentRelationship_IncidentID", ".//div[@arid='1000000161']/textarea[@tagname='textarea']", 30000, null, "d0f142f5-ba2b-47dd-a16f-7a7e126b25fb");
+                _btn_useadvancedsearchInfo = new RepoItemInfo(this, "btn_useAdvancedSearch", ".//div[@innertext='Use Advanced Search']", 30000, null, "abc759c4-8afe-422f-903b-0b47fbd929bf");
             }
 
             /// <summary>
@@ -408,6 +410,30 @@ namespace BMCtest333
                 get
                 {
                     return _txt_incidentrelationship_incidentidInfo;
+                }
+            }
+
+            /// <summary>
+            /// The btn_useAdvancedSearch item.
+            /// </summary>
+            [RepositoryItem("abc759c4-8afe-422f-903b-0b47fbd929bf")]
+            public virtual Ranorex.DivTag btn_useAdvancedSearch
+            {
+                get
+                {
+                    return _btn_useadvancedsearchInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The btn_useAdvancedSearch item info.
+            /// </summary>
+            [RepositoryItemInfo("abc759c4-8afe-422f-903b-0b47fbd929bf")]
+            public virtual RepoItemInfo btn_useAdvancedSearchInfo
+            {
+                get
+                {
+                    return _btn_useadvancedsearchInfo;
                 }
             }
         }
@@ -614,7 +640,6 @@ namespace BMCtest333
             RepoItemInfo _btn_save_nextstage_popupInfo;
             RepoItemInfo _mn_searchrelationshipInfo;
             RepoItemInfo _txt_searchvalueInfo;
-            RepoItemInfo _btn_useadvancedsearchInfo;
             RepoItemInfo _btn_searchInfo;
             RepoItemInfo _tf_row_incidentidInfo;
             RepoItemInfo _btn_relateincidentassocInfo;
@@ -642,13 +667,12 @@ namespace BMCtest333
                 _btn_save_nextstage_popupInfo = new RepoItemInfo(this, "btn_save_NextStage_PopUp", ".//div[@innertext='Save']", 30000, null, "1986bb54-1f75-418a-abb1-2a78bc837ac6");
                 _mn_searchrelationshipInfo = new RepoItemInfo(this, "mn_searchRelationship", ".//div[@arid='301541300']", 30000, null, "5ed1707a-36b9-4764-8b67-948f2bbd6439");
                 _txt_searchvalueInfo = new RepoItemInfo(this, "txt_searchValue", ".//div[@arid='301737200']", 30000, null, "944056c6-aa47-4f4f-ad3a-56935e93a817");
-                _btn_useadvancedsearchInfo = new RepoItemInfo(this, "btn_useAdvancedSearch", ".//div[@innertext='Use Advanced Search']", 30000, null, "abc759c4-8afe-422f-903b-0b47fbd929bf");
                 _btn_searchInfo = new RepoItemInfo(this, "btn_search", ".//div[#'FormContainer']//div[@innertext='Search']", 30000, null, "8192ba19-a5cd-4b29-b034-b3b90bf3cb54");
                 _tf_row_incidentidInfo = new RepoItemInfo(this, "tf_row_incidentID", ".//div[@id<'302078000']//span[@innertext='INC000000000206']", 30000, null, "066f85ba-f1fa-4463-ba25-ac9d0673fdd9");
                 _btn_relateincidentassocInfo = new RepoItemInfo(this, "btn_relateIncidentAssoc", ".//div[@innertext='Relate']", 30000, null, "02dfbc41-8354-4f46-ba15-348fbf1ac174");
                 _mn_relationshiptypeInfo = new RepoItemInfo(this, "mn_relationshipType", ".//div[@arid='301527000']", 30000, null, "56c8ae4b-b939-484d-8435-c5c28474e467");
                 _txt_incidentidInfo = new RepoItemInfo(this, "txt_IncidentID", ".//div[@arid='1000000161']/textarea[@tagname='textarea']", 30000, null, "8fdf67c0-3e5a-48bf-a212-2501e54ed4cc");
-                _mn_statusInfo = new RepoItemInfo(this, "mn_status", ".//div[@arid='7']//div[@class='selection']/input", 30000, null, "9957a7e1-2f97-4ff1-8347-e4a17e915429");
+                _mn_statusInfo = new RepoItemInfo(this, "mn_status", ".//div[@arid='7']//div[@class='selection']/input[@visible='True']", 30000, null, "9957a7e1-2f97-4ff1-8347-e4a17e915429");
                 _mn_statusreasonInfo = new RepoItemInfo(this, "mn_statusReason", ".//div[@arid='1000000881']//textarea", 30000, null, "93e0a513-ce9f-478d-8df0-c3c3182fb445");
                 _txt_inc_resolutionInfo = new RepoItemInfo(this, "txt_INC_Resolution", ".//div[@arid='1000000156']//textarea", 30000, null, "7c4aa71a-8ad4-4def-88d4-aa515b3e422a");
             }
@@ -962,30 +986,6 @@ namespace BMCtest333
                 get
                 {
                     return _txt_searchvalueInfo;
-                }
-            }
-
-            /// <summary>
-            /// The btn_useAdvancedSearch item.
-            /// </summary>
-            [RepositoryItem("abc759c4-8afe-422f-903b-0b47fbd929bf")]
-            public virtual Ranorex.DivTag btn_useAdvancedSearch
-            {
-                get
-                {
-                    return _btn_useadvancedsearchInfo.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The btn_useAdvancedSearch item info.
-            /// </summary>
-            [RepositoryItemInfo("abc759c4-8afe-422f-903b-0b47fbd929bf")]
-            public virtual RepoItemInfo btn_useAdvancedSearchInfo
-            {
-                get
-                {
-                    return _btn_useadvancedsearchInfo;
                 }
             }
 

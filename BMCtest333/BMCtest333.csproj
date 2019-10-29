@@ -357,6 +357,18 @@
       <UserCode>true</UserCode>
       <id>13e206f0-7c9e-4e8f-963a-6806c0f95ae7</id>
     </Compile>
+    <Compile Include="userCodeValidateOriginal.cs">
+      <BoundTo>95b4743d-20cf-43a6-97bc-e17b77a91c6f</BoundTo>
+      <DependentUpon>userCodeValidateOriginal.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1c3ec705-f885-4732-b4eb-8e91ae912733</id>
+    </Compile>
+    <Compile Include="userCodeValidateOriginal.UserCode.cs">
+      <BoundTo>95b4743d-20cf-43a6-97bc-e17b77a91c6f</BoundTo>
+      <DependentUpon>userCodeValidateOriginal.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6d5fa161-7d44-4863-9fdb-99290652a4a5</id>
+    </Compile>
     <Compile Include="validateDuplicate.cs">
       <BoundTo>fdd537f3-b2c8-4f93-b232-480f5874044b</BoundTo>
       <DependentUpon>validateDuplicate.rxrec</DependentUpon>
@@ -528,6 +540,11 @@
       <id>4c7f1328-ed58-4bb0-919f-80c7db6fdf0b</id>
       <recordtableid>ea0bdf29-3da4-4e6b-bd1d-ee73b6cdff29</recordtableid>
     </None>
+    <None Include="userCodeValidateOriginal.rxrec">
+      <id>95b4743d-20cf-43a6-97bc-e17b77a91c6f</id>
+      <recordtableid>460889de-a0c9-4192-8af1-5177354bf9fb</recordtableid>
+      <BoundTo>6b9a3c25-7aa4-4f17-ab6d-b8f99ca18c94</BoundTo>
+    </None>
     <None Include="validateDuplicate.rxrec">
       <BoundTo>6b9a3c25-7aa4-4f17-ab6d-b8f99ca18c94</BoundTo>
       <id>fdd537f3-b2c8-4f93-b232-480f5874044b</id>
@@ -563,6 +580,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>b00be28c-1980-42a8-948a-c15d2a4dcf8b</id>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{D37A43D4-DD8D-4EA0-8ACB-33A6C1B8FF49}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

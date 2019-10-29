@@ -112,8 +112,8 @@ namespace BMCtest333
             repo.IncidentForm.txt_searchValue.PressKeys("{Return}");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentForm.btn_useAdvancedSearch' at Center.", repo.IncidentForm.btn_useAdvancedSearchInfo, new RecordItemIndex(5));
-            repo.IncidentForm.btn_useAdvancedSearch.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentRelationshipSearch.btn_useAdvancedSearch' at Center.", repo.IncidentRelationshipSearch.btn_useAdvancedSearchInfo, new RecordItemIndex(5));
+            repo.IncidentRelationshipSearch.btn_useAdvancedSearch.Click();
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'IncidentRelationshipSearch.txt_IncidentRelationship_IncidentID' at 69;12.", repo.IncidentRelationshipSearch.txt_IncidentRelationship_IncidentIDInfo, new RecordItemIndex(6));

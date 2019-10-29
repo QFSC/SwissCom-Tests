@@ -42,7 +42,8 @@ namespace BMCtest333
         public validateOriginIncidentDetails()
         {
             var_originStatus = "";
-            var_originStatusReason = "";
+            var_statusReason2 = "";
+            var_statusReason1 = "";
         }
 
         /// <summary>
@@ -67,16 +68,28 @@ namespace BMCtest333
             set { _var_originStatus = value; }
         }
 
-        string _var_originStatusReason;
+        string _var_statusReason2;
 
         /// <summary>
-        /// Gets or sets the value of variable var_originStatusReason.
+        /// Gets or sets the value of variable var_statusReason2.
         /// </summary>
-        [TestVariable("a8bdc3e8-8001-4f18-895e-3883857e53d9")]
-        public string var_originStatusReason
+        [TestVariable("7be2211b-3663-46b3-a600-d98fa500ac46")]
+        public string var_statusReason2
         {
-            get { return _var_originStatusReason; }
-            set { _var_originStatusReason = value; }
+            get { return _var_statusReason2; }
+            set { _var_statusReason2 = value; }
+        }
+
+        string _var_statusReason1;
+
+        /// <summary>
+        /// Gets or sets the value of variable var_statusReason1.
+        /// </summary>
+        [TestVariable("90ab7e07-e639-4e53-8e96-e5879e1540fa")]
+        public string var_statusReason1
+        {
+            get { return _var_statusReason1; }
+            set { _var_statusReason1 = value; }
         }
 
 #endregion
@@ -109,8 +122,7 @@ namespace BMCtest333
             Validate.AttributeEqual(repo.IncidentForm.mn_statusInfo, "TagValue", var_originStatus);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagValue=$var_originStatusReason) on item 'IncidentForm.mn_statusReason'.", repo.IncidentForm.mn_statusReasonInfo, new RecordItemIndex(1));
-            Validate.AttributeEqual(repo.IncidentForm.mn_statusReasonInfo, "TagValue", var_originStatusReason);
+            Ranorex.AutomationHelpers.UserCodeCollections.ValidationLibrary.CompareValues(var_statusReason1, var_statusReason2);
             Delay.Milliseconds(0);
             
         }

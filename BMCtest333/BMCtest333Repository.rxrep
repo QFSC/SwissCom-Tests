@@ -64,7 +64,7 @@ name="BMCtest333Repository">
 			name="txt_IncidentRelationship_searchValue"
 			refimgid="3b9c73bc-951e-450d-8f5c-09fa2d990658"
 			searchtimeout="30000ms">
-				/dom[@domain='desktop-c80mesn' and @browser='{Form:Incident Relationship Search - Google Chrome}']//div[@class='btntextdiv']//div[@innertext='Search']
+				/dom[@domain='desktop-c80mesn' and @caption='Incident Relationship Search']//div[@class='btntextdiv']//div[@innertext='Search']
 			</item>
 			<item
 			addcaps="unknown,webelement,textareatag"
@@ -73,10 +73,19 @@ name="BMCtest333Repository">
 			name="txt_IncidentRelationship_IncidentID"
 			refimgid="c168ed65-f4e1-4d58-95da-a75ff4381175"
 			searchtimeout="30000ms">
-				/dom[@domain='desktop-c80mesn' and @browser='{Form:Incident Relationship Search - Google Chrome}']//div[@arid='1000000161']/textarea[@tagname='textarea']
+				/dom[@domain='desktop-c80mesn' and @caption='Incident Relationship Search']//div[@arid='1000000161']/textarea[@tagname='textarea']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="abc759c4-8afe-422f-903b-0b47fbd929bf"
+			name="btn_useAdvancedSearch"
+			refimgid="e9849d7d-3629-4233-a672-f42a105220ee"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn' and @caption='Incident Relationship Search']//div[@innertext='Use Advanced Search']
 			</item>
 			<basepath>
-				/dom[@domain='desktop-c80mesn' and @browser='{Form:Incident Relationship Search - Google Chrome}']
+				/dom[@domain='desktop-c80mesn' and @caption='Incident Relationship Search']
 			</basepath>
 		</folder>
 		<folder
@@ -253,15 +262,6 @@ name="BMCtest333Repository">
 			<item
 			addcaps="unknown,webelement,divtag"
 			capname="divtag"
-			id="abc759c4-8afe-422f-903b-0b47fbd929bf"
-			name="btn_useAdvancedSearch"
-			refimgid="e9849d7d-3629-4233-a672-f42a105220ee"
-			searchtimeout="30000ms">
-				/dom[@domain='desktop-c80mesn']//div[@innertext='Use Advanced Search']
-			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
 			id="8192ba19-a5cd-4b29-b034-b3b90bf3cb54"
 			name="btn_search"
 			refimgid="51f51c94-c63f-44f9-aafa-59d937f18e8c"
@@ -311,7 +311,7 @@ name="BMCtest333Repository">
 			name="mn_status"
 			refimgid="7a61dd50-f3d1-4d0a-9ce5-79411acd5495"
 			searchtimeout="30000ms">
-				/dom[@domain='desktop-c80mesn']//div[@arid='7']//div[@class='selection']/input
+				/dom[@domain='desktop-c80mesn']//div[@arid='7']//div[@class='selection']/input[@visible='True']
 			</item>
 			<item
 			capname="textareatag"

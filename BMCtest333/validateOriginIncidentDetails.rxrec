@@ -28,8 +28,12 @@ mode="Global">
 		name="var_originStatus">
 		</var>
 		<var
-		id="a8bdc3e8-8001-4f18-895e-3883857e53d9"
-		name="var_originStatusReason">
+		id="7be2211b-3663-46b3-a600-d98fa500ac46"
+		name="var_statusReason2">
+		</var>
+		<var
+		id="90ab7e07-e639-4e53-8e96-e5879e1540fa"
+		name="var_statusReason1">
 		</var>
 	</variables>
 	<recorditems>
@@ -60,33 +64,41 @@ mode="Global">
 				yourtext
 			</matchvalue>
 		</validationitem>
-		<validationitem
-		action="AttributeEqual"
+		<userrecorditem
+		classname="ValidationLibrary"
 		enabled="True"
-		optional="False"
-		searchpropertyid="6d20805d-01a4-4ddd-9c78-d63a10741e96">
+		isexternaltestmethod="True"
+		methodname="CompareValues"
+		namespace="Ranorex.AutomationHelpers.UserCodeCollections"
+		optional="False">
 			<comment>
 			</comment>
 			<bindings>
-				<binding
-				target="MatchValue"
-				variable="var_originStatusReason">
-				</binding>
 			</bindings>
-			<info
-			id="93e0a513-ce9f-478d-8df0-c3c3182fb445"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/dom[@domain='desktop-c80mesn']//div[@arid='1000000881']//textarea
-				</path>
-			</info>
-			<matchname>
-				TagValue
-			</matchname>
-			<matchvalue>
-				yourtext
-			</matchvalue>
-		</validationitem>
+			<arguments
+			id="16c5a765-e356-4c11-8ac3-114600cc9df0">
+				<argument
+				argname="value1"
+				id="44c8fee3-4579-48e5-b21b-de714156b597"
+				variable="var_statusReason1">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="value2"
+				id="bc6505d2-ac32-4cf7-a663-d82905360d23"
+				variable="var_statusReason2">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="c96fe3b8-0ac8-477d-9c9e-bc0ec228fece"

@@ -31,6 +31,10 @@ mode="Global">
 		id="7545dd5e-0316-4e1c-afea-fbbeb8a2152b"
 		name="var_StatusReason">
 		</var>
+		<var
+		id="8c0a54fb-b2e9-46f3-ab90-cbc4949d9dc9"
+		name="var2_StatusReason">
+		</var>
 	</variables>
 	<recorditems>
 		<getvaluerecorditem
@@ -56,7 +60,7 @@ mode="Global">
 		enabled="True"
 		optional="False"
 		searchpropertyid="1ca3b5ff-d960-46a3-b1a8-3c4402e0c1b6"
-		varname="var_StatusReason">
+		varname="var2_StatusReason">
 			<comment>
 			</comment>
 			<bindings>

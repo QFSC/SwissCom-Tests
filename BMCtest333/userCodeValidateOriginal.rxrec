@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="460889de-a0c9-4192-8af1-5177354bf9fb"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="userCodeValidateOriginal"
+	namespace="BMCtest333">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="c96fe3b8-0ac8-477d-9c9e-bc0ec228fece"
+	name="BMCtest333Repository"
+	relativepath="BMCtest333Repository.rxrep">
+		<codegen
+		classname="BMCtest333Repository"
+		namespace="BMCtest333">
+		</codegen>
+		<rootfolder
+		id="05f39afb-bbd5-40dd-b9b1-a986a7574ee7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		userCodeValidateOriginal.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
