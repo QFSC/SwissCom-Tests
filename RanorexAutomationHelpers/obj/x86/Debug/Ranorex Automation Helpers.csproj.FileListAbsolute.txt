@@ -1,0 +1,8 @@
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.xml
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb

@@ -1,0 +1,14 @@
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\bin\Debug\SwissCom.rxtmg
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\bin\Debug\SwissCom.rxtst
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\bin\Debug\SwissCom.exe.config
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\bin\Debug\SwissCom.xml
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\bin\Debug\SwissCom.exe
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\bin\Debug\SwissCom.pdb
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\obj\x86\Debug\SwissCom.csprojResolveAssemblyReference.cache
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\obj\x86\Debug\SwissCom.exe
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\obj\x86\Debug\SwissCom.pdb
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\Veliyan\Documents\Ranorex\RanorexStudio Projects\SwissCom\SwissCom\bin\Debug\Ranorex Automation Helpers.xml
