@@ -27,6 +27,7 @@ namespace SwissCom
     public partial class SwissComRepository : RepoGenBaseFolder
     {
         static SwissComRepository instance = new SwissComRepository();
+        SwissComRepositoryFolders.BMCRemedySearchAppFolder _bmcremedysearch;
 
         /// <summary>
         /// Gets the singleton class instance representing the SwissComRepository element repository.
@@ -43,6 +44,7 @@ namespace SwissCom
         public SwissComRepository() 
             : base("SwissComRepository", "/", null, 0, false, "2987f7cf-f678-4558-8313-29bae9d1abe9", ".\\RepositoryImages\\SwissComRepository2987f7cf.rximgres")
         {
+            _bmcremedysearch = new SwissComRepositoryFolders.BMCRemedySearchAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +62,15 @@ namespace SwissCom
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The BMCRemedySearch folder.
+        /// </summary>
+        [RepositoryFolder("8e185378-a783-4e04-a18d-694c3036b93a")]
+        public virtual SwissComRepositoryFolders.BMCRemedySearchAppFolder BMCRemedySearch
+        {
+            get { return _bmcremedysearch; }
+        }
     }
 
     /// <summary>
@@ -68,6 +79,72 @@ namespace SwissCom
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class SwissComRepositoryFolders
     {
+        /// <summary>
+        /// The BMCRemedySearchAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("8e185378-a783-4e04-a18d-694c3036b93a")]
+        public partial class BMCRemedySearchAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _logoutInfo;
+
+            /// <summary>
+            /// Creates a new BMCRemedySearch  folder.
+            /// </summary>
+            public BMCRemedySearchAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("BMCRemedySearch", "/dom[@domain='desktop-c80mesn']", parentFolder, 30000, null, false, "8e185378-a783-4e04-a18d-694c3036b93a", "")
+            {
+                _logoutInfo = new RepoItemInfo(this, "Logout", ".//div[#'FormContainer']/div[2]/div/div/div[1]/fieldset/div/div[2]/fieldset/a[5]/?/?/div[@innertext='Logout']", 30000, null, "06ec67d4-033f-4f61-aacd-af5a527bb3b4");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("8e185378-a783-4e04-a18d-694c3036b93a")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("8e185378-a783-4e04-a18d-694c3036b93a")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Logout item.
+            /// </summary>
+            [RepositoryItem("06ec67d4-033f-4f61-aacd-af5a527bb3b4")]
+            public virtual Ranorex.DivTag Logout
+            {
+                get
+                {
+                    return _logoutInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Logout item info.
+            /// </summary>
+            [RepositoryItemInfo("06ec67d4-033f-4f61-aacd-af5a527bb3b4")]
+            public virtual RepoItemInfo LogoutInfo
+            {
+                get
+                {
+                    return _logoutInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

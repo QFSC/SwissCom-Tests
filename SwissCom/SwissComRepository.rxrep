@@ -1,18 +1,58 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="SwissComRepository"
-id="463ebe46-e91a-4725-a55f-af6dc9071cfc">
-  <codegen
-  classname="SwissComRepository"
-  namespace="SwissCom"/>
-  <rootfolder
-  name="Root"
-  id="2987f7cf-f678-4558-8313-29bae9d1abe9"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-    <basepath/>
-  </rootfolder>
-  <variables/>
+﻿<repository
+id="463ebe46-e91a-4725-a55f-af6dc9071cfc"
+name="SwissComRepository">
+	<codegen
+	classname="SwissComRepository"
+	namespace="SwissCom">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="2987f7cf-f678-4558-8313-29bae9d1abe9"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="8e185378-a783-4e04-a18d-694c3036b93a"
+		isrooted="True"
+		name="BMCRemedySearch"
+		refpath="/dom[@domain='desktop-c80mesn']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="06ec67d4-033f-4f61-aacd-af5a527bb3b4"
+			name="Logout"
+			refimgid="d10b7c6e-6dcd-497c-9971-f11e7989ec54"
+			refpath="/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[1]/fieldset/div/div[2]/fieldset/a[5]/div/div[@innertext='Logout']"
+			searchtimeout="30000ms">
+				/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[1]/fieldset/div/div[2]/fieldset/a[5]/?/?/div[@innertext='Logout']
+			</item>
+			<basepath>
+				/dom[@domain='desktop-c80mesn']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>

@@ -275,6 +275,18 @@
       <id>2f7903fd-f4bd-4bbc-9802-7dd38f2ecd19</id>
       <BoundTo>454e6ce1-6c29-4242-885c-832af4f3de7a</BoundTo>
     </Compile>
+    <Compile Include="Logout.cs">
+      <BoundTo>7531cac8-6c7e-4aa4-8069-754e1d9a820e</BoundTo>
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9bc59810-7ec1-4e7c-95db-67bc67068739</id>
+    </Compile>
+    <Compile Include="Logout.UserCode.cs">
+      <BoundTo>7531cac8-6c7e-4aa4-8069-754e1d9a820e</BoundTo>
+      <DependentUpon>Logout.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c524cfaf-65c9-488a-b8f4-ac26961138e0</id>
+    </Compile>
     <Compile Include="searchIncident.cs">
       <DependentUpon>searchIncident.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
@@ -491,6 +503,11 @@
       <BoundTo>7da9a247-7edb-479d-b977-36bb18b1bbbb</BoundTo>
       <id>454e6ce1-6c29-4242-885c-832af4f3de7a</id>
       <recordtableid>66ccfeb4-d839-4699-b029-7f0f8176625d</recordtableid>
+    </None>
+    <None Include="Logout.rxrec">
+      <id>7531cac8-6c7e-4aa4-8069-754e1d9a820e</id>
+      <recordtableid>9ca97808-4459-465e-a417-bdd0ca618812</recordtableid>
+      <BoundTo>7da9a247-7edb-479d-b977-36bb18b1bbbb</BoundTo>
     </None>
     <None Include="searchIncident.rxrec">
       <BoundTo>7da9a247-7edb-479d-b977-36bb18b1bbbb</BoundTo>
