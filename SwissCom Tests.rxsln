@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BMCtest333", "BMCtest333\BMCtest333.csproj", "{D968925E-FB47-4F5E-BF47-0BF97B5E5DD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwissCom Tests", "BMCtest333\SwissCom Tests.csproj", "{D968925E-FB47-4F5E-BF47-0BF97B5E5DD2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{D37A43D4-DD8D-4EA0-8ACB-33A6C1B8FF49}"
 EndProject
