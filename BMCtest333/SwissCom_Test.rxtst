@@ -148,7 +148,7 @@
 			</smartfoldernode>
 			<testcase
 			id="578cc54c-cb22-4aa1-848e-0afb4d32ff89"
-			name="BMCtest333"
+			name="SwissCom_Test"
 			reportlevel="Info;20">
 				<parameters>
 					<param
@@ -322,7 +322,7 @@
 			enabletracingscreenshots="True"
 			id="90adf840-fef9-497a-94d5-e7015d3e2cb6"
 			junitreport="False"
-			name="BMCtest333"
+			name="SwissCom_Test"
 			reportcompress="False"
 			reportdirectoryname="Reports"
 			reportenabled="True"
@@ -540,10 +540,10 @@
 		<childhierarchy>
 			<testsuite
 			id="90adf840-fef9-497a-94d5-e7015d3e2cb6"
-			name="BMCtest333">
+			name="SwissCom_Test">
 				<testcase
 				id="578cc54c-cb22-4aa1-848e-0afb4d32ff89"
-				name="BMCtest333">
+				name="SwissCom_Test">
 					<testcase
 					id="fabe9767-5713-423c-8233-483579788f91"
 					name="MasterToSlave">
