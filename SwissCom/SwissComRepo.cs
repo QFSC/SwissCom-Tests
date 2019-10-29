@@ -37,6 +37,7 @@ namespace SwissCom
         SwissComRepoFolders.MozillaFirefoxAppFolder _mozillafirefox;
         SwissComRepoFolders.TortoiseGitAppFolder _tortoisegit;
         SwissComRepoFolders.ChromeAppFolder _chrome;
+        RepoItemInfo _logoutInfo;
 
         /// <summary>
         /// Gets the singleton class instance representing the SwissComRepo element repository.
@@ -63,6 +64,7 @@ namespace SwissCom
             _mozillafirefox = new SwissComRepoFolders.MozillaFirefoxAppFolder(this);
             _tortoisegit = new SwissComRepoFolders.TortoiseGitAppFolder(this);
             _chrome = new SwissComRepoFolders.ChromeAppFolder(this);
+            _logoutInfo = new RepoItemInfo(this, "Logout", "/dom[@domain='desktop-c80mesn']//div[#'FormContainer']//a[@arid='300000044']", 30000, null, "b918a171-6f2a-4c21-a21b-c41e3c0e82ae");
         }
 
 #region Variables
@@ -102,6 +104,30 @@ namespace SwissCom
             get
             {
                 return _selfInfo;
+            }
+        }
+
+        /// <summary>
+        /// The Logout item.
+        /// </summary>
+        [RepositoryItem("b918a171-6f2a-4c21-a21b-c41e3c0e82ae")]
+        public virtual Ranorex.ATag Logout
+        {
+            get
+            {
+                 return _logoutInfo.CreateAdapter<Ranorex.ATag>(true);
+            }
+        }
+
+        /// <summary>
+        /// The Logout item info.
+        /// </summary>
+        [RepositoryItemInfo("b918a171-6f2a-4c21-a21b-c41e3c0e82ae")]
+        public virtual RepoItemInfo LogoutInfo
+        {
+            get
+            {
+                return _logoutInfo;
             }
         }
 
@@ -1197,7 +1223,6 @@ namespace SwissCom
             RepoItemInfo _atagokInfo;
             RepoItemInfo _newitemInfo;
             RepoItemInfo _tbsearchsavechangesInfo;
-            RepoItemInfo _logoutInfo;
 
             /// <summary>
             /// Creates a new BMCRemedySearch  folder.
@@ -1214,7 +1239,6 @@ namespace SwissCom
                 _atagokInfo = new RepoItemInfo(this, "ATagOK", ".//table[#'DivTable']//iframe[@src='http://desktop-c80mesn/arsys/resources/html/MessagePopup.html']//div[#'PopupMsgFooter']/a[@innertext='OK']", 30000, null, "0bd5bd93-1346-44cc-b89c-80c578110cb1");
                 _newitemInfo = new RepoItemInfo(this, "NewItem", "element", 30000, null, "bc33373a-b271-4e79-b715-76349019769e");
                 _tbsearchsavechangesInfo = new RepoItemInfo(this, "TBsearchsavechanges", ".//div[#'TBsearchsavechanges']", 30000, null, "3987624e-684d-4a82-b5f3-cd8c4078c9c3");
-                _logoutInfo = new RepoItemInfo(this, "Logout", ".//div[@id<'300000044']", 30000, null, "b918a171-6f2a-4c21-a21b-c41e3c0e82ae");
             }
 
             /// <summary>
@@ -1406,30 +1430,6 @@ namespace SwissCom
                 get
                 {
                     return _tbsearchsavechangesInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Logout item.
-            /// </summary>
-            [RepositoryItem("b918a171-6f2a-4c21-a21b-c41e3c0e82ae")]
-            public virtual Ranorex.DivTag Logout
-            {
-                get
-                {
-                    return _logoutInfo.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Logout item info.
-            /// </summary>
-            [RepositoryItemInfo("b918a171-6f2a-4c21-a21b-c41e3c0e82ae")]
-            public virtual RepoItemInfo LogoutInfo
-            {
-                get
-                {
-                    return _logoutInfo;
                 }
             }
 

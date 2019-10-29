@@ -551,6 +551,50 @@
             Gets or sets the value of variable Browser.
             </summary>
         </member>
+        <member name="T:SwissCom.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.Logout.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SwissCom.Logout.Browser">
+            <summary>
+            Gets or sets the value of variable Browser.
+            </summary>
+        </member>
         <member name="T:SwissCom.searchIncident">
              <summary>
             The searchIncident recording.
@@ -1331,6 +1375,16 @@
             The TBsearchsavechanges item info.
             </summary>
         </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
         <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.PageBodyPbChrome">
             <summary>
             The PageBodyPbChrome folder.
@@ -1821,9 +1875,44 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:SwissCom.SwissComRepository.BMCRemedySearch">
+            <summary>
+            The BMCRemedySearch folder.
+            </summary>
+        </member>
         <member name="T:SwissCom.SwissComRepositoryFolders">
             <summary>
             Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder">
+            <summary>
+            The BMCRemedySearchAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BMCRemedySearch  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
             </summary>
         </member>
         <member name="T:SwissCom.userCodeValidateOriginal">

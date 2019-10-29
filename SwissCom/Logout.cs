@@ -94,11 +94,14 @@ namespace SwissCom
             Host.Current.OpenBrowser("http://desktop-c80mesn/arsys/", Browser, "", false, true, false, false, false, true);
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'BMCRemedySearch.Logout' at 28;5.", repo.BMCRemedySearch.LogoutInfo, new RecordItemIndex(1));
-            repo.BMCRemedySearch.Logout.Click("28;5");
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));
+            Delay.Duration(5000, false);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Logout' at 28;5.", repo.LogoutInfo, new RecordItemIndex(2));
+            repo.Logout.Click("28;5");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(3));
             Delay.Duration(5000, false);
             
         }

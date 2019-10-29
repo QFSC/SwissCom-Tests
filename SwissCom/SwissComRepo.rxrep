@@ -738,15 +738,6 @@ name="SwissComRepo">
 			searchtimeout="30000ms">
 				/dom[@domain='desktop-c80mesn']//div[#'TBsearchsavechanges']
 			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="b918a171-6f2a-4c21-a21b-c41e3c0e82ae"
-			name="Logout"
-			refimgid="a0a5c348-afb1-4b62-9069-87b61bc92bb9"
-			searchtimeout="30000ms">
-				/dom[@domain='desktop-c80mesn']//div[@id&lt;'300000044']
-			</item>
 			<basepath>
 				/dom[@domain='desktop-c80mesn']
 			</basepath>
@@ -766,6 +757,15 @@ zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<item
+		addcaps="unknown,webelement,divtag"
+		capname="atag"
+		id="b918a171-6f2a-4c21-a21b-c41e3c0e82ae"
+		name="Logout"
+		refimgid="a0a5c348-afb1-4b62-9069-87b61bc92bb9"
+		searchtimeout="30000ms">
+			/dom[@domain='desktop-c80mesn']//div[#'FormContainer']//a[@arid='300000044']
+		</item>
 		<appfolder
 		addcaps="container,webdocument"
 		capname="webdocument"
