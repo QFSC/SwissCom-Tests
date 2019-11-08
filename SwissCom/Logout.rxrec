@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9ca97808-4459-465e-a417-bdd0ca618812"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Logout"
+	namespace="SwissCom">
+	</codegen>
+	<variables>
+		<var
+		id="dad524eb-c0b9-4c5c-b659-82a3780352cc"
+		name="Browser">
+			Chrome
+		</var>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="BrowserName"
+				variable="Browser">
+				</binding>
+			</bindings>
+			<url>
+				http://desktop-c80mesn/arsys/
+			</url>
+		</openwebsiterecorditem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="28;5"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="1f816076-a57b-4ee5-85cf-699aa0f10568"
+		sx="1881"
+		sy="158"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b918a171-6f2a-4c21-a21b-c41e3c0e82ae"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="1853,153,56,12"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						f9
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Logout
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						f9
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='desktop-c80mesn']//div[#'FormContainer']/div[2]/div/div/div[1]/fieldset/div/div[2]/fieldset/a[5]/?/?/div[@innertext='Logout']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="507bd70e-ad20-4f1d-bd78-e7536b30a345">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="185edda7-ab85-4da6-9901-507ddb0f95c5"
+	name="SwissComRepo"
+	relativepath="SwissComRepo.rxrep">
+		<codegen
+		classname="SwissComRepo"
+		namespace="SwissCom">
+		</codegen>
+		<rootfolder
+		id="05f39afb-bbd5-40dd-b9b1-a986a7574ee7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Logout.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

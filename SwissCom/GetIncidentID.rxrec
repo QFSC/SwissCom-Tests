@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="62446548-a90f-40df-b707-7c6a0d1affb9"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="GetIncidentID"
+	namespace="SwissCom">
+	</codegen>
+	<variables>
+		<var
+		id="0b5cfcf2-2be4-4e11-b0c1-1677e9f1ac49"
+		name="var_duplicIncident">
+		</var>
+	</variables>
+	<recorditems>
+		<getvaluerecorditem
+		attrname="TagValue"
+		enabled="True"
+		optional="False"
+		searchpropertyid="bf904c2a-d78e-4285-98a1-4d9543055514"
+		varname="var_duplicIncident">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8fdf67c0-3e5a-48bf-a212-2501e54ed4cc"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[@domain='desktop-c80mesn']//div[@arid='1000000161']/textarea[@tagname='textarea']
+				</path>
+			</info>
+		</getvaluerecorditem>
+	</recorditems>
+	<repository
+	id="185edda7-ab85-4da6-9901-507ddb0f95c5"
+	name="SwissComRepo"
+	relativepath="SwissComRepo.rxrep">
+		<codegen
+		classname="SwissComRepo"
+		namespace="SwissCom">
+		</codegen>
+		<rootfolder
+		id="05f39afb-bbd5-40dd-b9b1-a986a7574ee7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		GetIncidentID.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

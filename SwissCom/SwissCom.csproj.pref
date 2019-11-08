@@ -1,0 +1,11 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="SwissCom.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="SwissCom.rxtst" />
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

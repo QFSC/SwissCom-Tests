@@ -1,0 +1,2182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwissCom</name>
+    </assembly>
+    <members>
+        <member name="T:SwissCom.AddCustomer">
+             <summary>
+            The addCustomer recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.AddCustomer.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.AddCustomer.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.AddCustomer.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.AddCustomer.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.AddCustomer.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.AddCustomer.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.AddCustomer.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.addImpactUrgency">
+             <summary>
+            The addImpactUrgency recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.addImpactUrgency.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.addImpactUrgency.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.addImpactUrgency.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.addImpactUrgency.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.addImpactUrgency.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.addImpactUrgency.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.addImpactUrgency.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.AddSummaryNotes">
+             <summary>
+            The addSummaryNotes recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.AddSummaryNotes.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.AddSummaryNotes.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.AddSummaryNotes.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.AddSummaryNotes.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.AddSummaryNotes.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.AddSummaryNotes.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.AddSummaryNotes.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.AssignToMe">
+             <summary>
+            The assignToMe recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.AssignToMe.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.AssignToMe.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.AssignToMe.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.AssignToMe.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.AssignToMe.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.AssignToMe.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.AssignToMe.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.ClickEnter">
+             <summary>
+            The ClickEnter recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.ClickEnter.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.ClickEnter.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.ClickEnter.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.ClickEnter.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.ClickEnter.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.ClickEnter.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.ClickEnter.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.CloseBrowser">
+             <summary>
+            The closeBrowser recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.CreateRelation">
+             <summary>
+            The createRelation recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.CreateRelation.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.CreateRelation.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.CreateRelation.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.CreateRelation.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.CreateRelation.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.CreateRelation.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.CreateRelation.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SwissCom.CreateRelation.var_originIncident">
+            <summary>
+            Gets or sets the value of variable var_originIncident.
+            </summary>
+        </member>
+        <member name="T:SwissCom.getIncidentDetails">
+             <summary>
+            The getIncidentDetails recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.getIncidentDetails.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.getIncidentDetails.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.getIncidentDetails.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.getIncidentDetails.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.getIncidentDetails.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.getIncidentDetails.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.getIncidentDetails.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SwissCom.getIncidentDetails.var_Status">
+            <summary>
+            Gets or sets the value of variable var_Status.
+            </summary>
+        </member>
+        <member name="P:SwissCom.getIncidentDetails.var_StatusReason">
+            <summary>
+            Gets or sets the value of variable var_StatusReason.
+            </summary>
+        </member>
+        <member name="P:SwissCom.getIncidentDetails.var2_StatusReason">
+            <summary>
+            Gets or sets the value of variable var2_StatusReason.
+            </summary>
+        </member>
+        <member name="T:SwissCom.GetIncidentID">
+             <summary>
+            The GetIncidentID recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.GetIncidentID.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.GetIncidentID.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.GetIncidentID.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.GetIncidentID.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.GetIncidentID.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.GetIncidentID.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.GetIncidentID.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SwissCom.GetIncidentID.var_duplicIncident">
+            <summary>
+            Gets or sets the value of variable var_duplicIncident.
+            </summary>
+        </member>
+        <member name="T:SwissCom.goToNewMode">
+             <summary>
+            The goToNewMode recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.goToNewMode.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.goToNewMode.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.goToNewMode.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.goToNewMode.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.goToNewMode.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.goToNewMode.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.goToNewMode.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.LoginRemedy">
+             <summary>
+            The loginRemedy recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.LoginRemedy.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.LoginRemedy.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.LoginRemedy.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.LoginRemedy.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.LoginRemedy.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.LoginRemedy.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.LoginRemedy.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SwissCom.LoginRemedy.Browser">
+            <summary>
+            Gets or sets the value of variable Browser.
+            </summary>
+        </member>
+        <member name="T:SwissCom.openHelpDeskForm">
+             <summary>
+            The openHelpDeskForm recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.openHelpDeskForm.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.openHelpDeskForm.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.openHelpDeskForm.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.openHelpDeskForm.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.openHelpDeskForm.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.openHelpDeskForm.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.openHelpDeskForm.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SwissCom.openHelpDeskForm.Browser">
+            <summary>
+            Gets or sets the value of variable Browser.
+            </summary>
+        </member>
+        <member name="T:SwissCom.OpenHPDAssociations">
+             <summary>
+            The OpenHPDAssociations recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.OpenHPDAssociations.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.OpenHPDAssociations.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.OpenHPDAssociations.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.OpenHPDAssociations.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.OpenHPDAssociations.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.OpenHPDAssociations.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.OpenHPDAssociations.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SwissCom.OpenHPDAssociations.Browser">
+            <summary>
+            Gets or sets the value of variable Browser.
+            </summary>
+        </member>
+        <member name="T:SwissCom.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.Logout.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SwissCom.Logout.Browser">
+            <summary>
+            Gets or sets the value of variable Browser.
+            </summary>
+        </member>
+        <member name="T:SwissCom.searchIncident">
+             <summary>
+            The searchIncident recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.searchIncident.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.searchIncident.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.searchIncident.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.searchIncident.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.searchIncident.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.searchIncident.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.searchIncident.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SwissCom.searchIncident.var_duplicIncident">
+            <summary>
+            Gets or sets the value of variable var_duplicIncident.
+            </summary>
+        </member>
+        <member name="T:SwissCom.searchOriginalIncident">
+             <summary>
+            The searchOriginalIncident recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.searchOriginalIncident.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.searchOriginalIncident.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.searchOriginalIncident.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.searchOriginalIncident.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.searchOriginalIncident.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.searchOriginalIncident.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.searchOriginalIncident.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.searchOriginIncident">
+             <summary>
+            The searchOriginIncident recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.searchOriginIncident.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.searchOriginIncident.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.searchOriginIncident.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.searchOriginIncident.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.searchOriginIncident.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.searchOriginIncident.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.searchOriginIncident.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SwissCom.searchOriginIncident.var_originIncident">
+            <summary>
+            Gets or sets the value of variable var_originIncident.
+            </summary>
+        </member>
+        <member name="T:SwissCom.setAssignedGroup">
+             <summary>
+            The setAssignedGroup recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.setAssignedGroup.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.setAssignedGroup.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.setAssignedGroup.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.setAssignedGroup.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.setAssignedGroup.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.setAssignedGroup.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.setAssignedGroup.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.setStatusStatusReasonAndResolution">
+             <summary>
+            The setStatusStatusReasonAndResolution recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.setStatusStatusReasonAndResolution.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.setStatusStatusReasonAndResolution.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.setStatusStatusReasonAndResolution.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.setStatusStatusReasonAndResolution.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.setStatusStatusReasonAndResolution.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.setStatusStatusReasonAndResolution.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.setStatusStatusReasonAndResolution.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepo">
+            <summary>
+            The class representing the SwissComRepo element repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepo.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.Instance">
+            <summary>
+            Gets the singleton class instance representing the SwissComRepo element repository.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.INC_ID">
+            <summary>
+            Gets or sets the value of variable INC_ID.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.Browser">
+            <summary>
+            Gets or sets the value of variable Browser.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.HPD_Associations">
+            <summary>
+            The HPD_Associations folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.IncidentRelationshipSearch">
+            <summary>
+            The IncidentRelationshipSearch folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.IncidentModification">
+            <summary>
+            The IncidentModification folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.LoginPage">
+            <summary>
+            The LoginPage folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.IncidentForm">
+            <summary>
+            The IncidentForm folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.BMCRemedySearch">
+            <summary>
+            The BMCRemedySearch folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.NewTab">
+            <summary>
+            The NewTab folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.MozillaFirefox">
+            <summary>
+            The MozillaFirefox folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.TortoiseGit">
+            <summary>
+            The TortoiseGit folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepo.Chrome">
+            <summary>
+            The Chrome folder.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.HPD_AssociationsFolder">
+            <summary>
+            The HPD_AssociationsFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.HPD_AssociationsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HPD_Associations  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.HPD_AssociationsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.HPD_AssociationsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.HPD_AssociationsFolder.txt_Entry2_RequestID">
+            <summary>
+            The txt_Entry2_RequestID item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.HPD_AssociationsFolder.txt_Entry2_RequestIDInfo">
+            <summary>
+            The txt_Entry2_RequestID item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.HPD_AssociationsFolder.txt_Entry1_RequestID">
+            <summary>
+            The txt_Entry1_RequestID item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.HPD_AssociationsFolder.txt_Entry1_RequestIDInfo">
+            <summary>
+            The txt_Entry1_RequestID item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.HPD_AssociationsFolder.mn_AssociationType">
+            <summary>
+            The mn_AssociationType item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.HPD_AssociationsFolder.mn_AssociationTypeInfo">
+            <summary>
+            The mn_AssociationType item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.IncidentRelationshipSearchFolder">
+            <summary>
+            The IncidentRelationshipSearchFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.IncidentRelationshipSearchFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new IncidentRelationshipSearch  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentRelationshipSearchFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentRelationshipSearchFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentRelationshipSearchFolder.txt_IncidentRelationship_searchValue">
+            <summary>
+            The txt_IncidentRelationship_searchValue item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentRelationshipSearchFolder.txt_IncidentRelationship_searchValueInfo">
+            <summary>
+            The txt_IncidentRelationship_searchValue item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentRelationshipSearchFolder.txt_IncidentRelationship_IncidentID">
+            <summary>
+            The txt_IncidentRelationship_IncidentID item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentRelationshipSearchFolder.txt_IncidentRelationship_IncidentIDInfo">
+            <summary>
+            The txt_IncidentRelationship_IncidentID item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentRelationshipSearchFolder.btn_useAdvancedSearch">
+            <summary>
+            The btn_useAdvancedSearch item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentRelationshipSearchFolder.btn_useAdvancedSearchInfo">
+            <summary>
+            The btn_useAdvancedSearch item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.IncidentModificationFolder">
+            <summary>
+            The IncidentModificationFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.IncidentModificationFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new IncidentModification  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentModificationFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentModificationFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentModificationFolder.txt_Resolution">
+            <summary>
+            The txt_Resolution item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentModificationFolder.txt_ResolutionInfo">
+            <summary>
+            The txt_Resolution item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.LoginPageFolder">
+            <summary>
+            The LoginPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.LoginPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginPage  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.LoginPageFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.LoginPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.LoginPageFolder.txt_userName">
+            <summary>
+            The txt_userName item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.LoginPageFolder.txt_userNameInfo">
+            <summary>
+            The txt_userName item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.LoginPageFolder.txt_password">
+            <summary>
+            The txt_password item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.LoginPageFolder.txt_passwordInfo">
+            <summary>
+            The txt_password item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.LoginPageFolder.btn_logIn">
+            <summary>
+            The btn_logIn item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.LoginPageFolder.btn_logInInfo">
+            <summary>
+            The btn_logIn item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.IncidentFormFolder">
+            <summary>
+            The IncidentFormFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.IncidentFormFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new IncidentForm  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_customer">
+            <summary>
+            The txt_customer item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_customerInfo">
+            <summary>
+            The txt_customer item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_assignedGroup">
+            <summary>
+            The mn_assignedGroup item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_assignedGroupInfo">
+            <summary>
+            The mn_assignedGroup item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_description">
+            <summary>
+            The txt_description item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_descriptionInfo">
+            <summary>
+            The txt_description item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_detailedDescription">
+            <summary>
+            The txt_detailedDescription item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_detailedDescriptionInfo">
+            <summary>
+            The txt_detailedDescription item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_impact">
+            <summary>
+            The mn_impact item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_impactInfo">
+            <summary>
+            The mn_impact item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_urgency">
+            <summary>
+            The mn_urgency item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_urgencyInfo">
+            <summary>
+            The mn_urgency item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.btn_save">
+            <summary>
+            The btn_save item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.btn_saveInfo">
+            <summary>
+            The btn_save item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.NextStage">
+            <summary>
+            The NextStage item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.NextStageInfo">
+            <summary>
+            The NextStage item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.btn_assignToMe">
+            <summary>
+            The btn_assignToMe item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.btn_assignToMeInfo">
+            <summary>
+            The btn_assignToMe item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.btn_save_NextStage_PopUp">
+            <summary>
+            The btn_save_NextStage_PopUp item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.btn_save_NextStage_PopUpInfo">
+            <summary>
+            The btn_save_NextStage_PopUp item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_searchRelationship">
+            <summary>
+            The mn_searchRelationship item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_searchRelationshipInfo">
+            <summary>
+            The mn_searchRelationship item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_searchValue">
+            <summary>
+            The txt_searchValue item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_searchValueInfo">
+            <summary>
+            The txt_searchValue item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.btn_search">
+            <summary>
+            The btn_search item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.btn_searchInfo">
+            <summary>
+            The btn_search item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.tf_row_incidentID">
+            <summary>
+            The tf_row_incidentID item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.tf_row_incidentIDInfo">
+            <summary>
+            The tf_row_incidentID item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.btn_relateIncidentAssoc">
+            <summary>
+            The btn_relateIncidentAssoc item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.btn_relateIncidentAssocInfo">
+            <summary>
+            The btn_relateIncidentAssoc item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_relationshipType">
+            <summary>
+            The mn_relationshipType item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_relationshipTypeInfo">
+            <summary>
+            The mn_relationshipType item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_IncidentID">
+            <summary>
+            The txt_IncidentID item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_IncidentIDInfo">
+            <summary>
+            The txt_IncidentID item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_status">
+            <summary>
+            The mn_status item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_statusInfo">
+            <summary>
+            The mn_status item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_statusReason">
+            <summary>
+            The mn_statusReason item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.mn_statusReasonInfo">
+            <summary>
+            The mn_statusReason item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_INC_Resolution">
+            <summary>
+            The txt_INC_Resolution item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.IncidentFormFolder.txt_INC_ResolutionInfo">
+            <summary>
+            The txt_INC_Resolution item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder">
+            <summary>
+            The BMCRemedySearchAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BMCRemedySearch  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.TdTag3ModerateLimited1">
+            <summary>
+            The TdTag3ModerateLimited1 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.TdTag3ModerateLimited1Info">
+            <summary>
+            The TdTag3ModerateLimited1 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.TdTag3Medium1">
+            <summary>
+            The TdTag3Medium1 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.TdTag3Medium1Info">
+            <summary>
+            The TdTag3Medium1 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.PageBodyPbChrome1">
+            <summary>
+            The PageBodyPbChrome1 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.PageBodyPbChrome1Info">
+            <summary>
+            The PageBodyPbChrome1 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.YuiSkinSam">
+            <summary>
+            The YuiSkinSam item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.YuiSkinSamInfo">
+            <summary>
+            The YuiSkinSam item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.ATagOK">
+            <summary>
+            The ATagOK item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.ATagOKInfo">
+            <summary>
+            The ATagOK item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.NewItem">
+            <summary>
+            The NewItem item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.NewItemInfo">
+            <summary>
+            The NewItem item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.TBsearchsavechanges">
+            <summary>
+            The TBsearchsavechanges item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.TBsearchsavechangesInfo">
+            <summary>
+            The TBsearchsavechanges item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.PageBodyPbChrome">
+            <summary>
+            The PageBodyPbChrome folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.BMCRemedySearchAppFolder.FormContainer">
+            <summary>
+            The FormContainer folder.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder">
+            <summary>
+            The PageBodyPbChromeFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PageBodyPbChrome  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.False2">
+            <summary>
+            The False2 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.False2Info">
+            <summary>
+            The False2 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.FieldSetTagPnl1">
+            <summary>
+            The FieldSetTagPnl1 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.FieldSetTagPnl1Info">
+            <summary>
+            The FieldSetTagPnl1 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.FieldSetTagPnl2">
+            <summary>
+            The FieldSetTagPnl2 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.FieldSetTagPnl2Info">
+            <summary>
+            The FieldSetTagPnl2 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.FieldSetTagPnl3">
+            <summary>
+            The FieldSetTagPnl3 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.FieldSetTagPnl3Info">
+            <summary>
+            The FieldSetTagPnl3 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.ArdbnCustomerArfid303530000CharDf">
+            <summary>
+            The ArdbnCustomerArfid303530000CharDf item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.ArdbnCustomerArfid303530000CharDfInfo">
+            <summary>
+            The ArdbnCustomerArfid303530000CharDf item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.FieldSetTagPnl4">
+            <summary>
+            The FieldSetTagPnl4 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.FieldSetTagPnl4Info">
+            <summary>
+            The FieldSetTagPnl4 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.Ardbnz2PHIncidentInformationArfid30371">
+            <summary>
+            The Ardbnz2PHIncidentInformationArfid30371 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.Ardbnz2PHIncidentInformationArfid30371Info">
+            <summary>
+            The Ardbnz2PHIncidentInformationArfid30371 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.ArdbnImpactArfid1000000163DfEnumSel">
+            <summary>
+            The ArdbnImpactArfid1000000163DfEnumSel item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.ArdbnImpactArfid1000000163DfEnumSelInfo">
+            <summary>
+            The ArdbnImpactArfid1000000163DfEnumSel item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.Ardbnz2PHBasicIncidentInformationArfid">
+            <summary>
+            The Ardbnz2PHBasicIncidentInformationArfid item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.Ardbnz2PHBasicIncidentInformationArfidInfo">
+            <summary>
+            The Ardbnz2PHBasicIncidentInformationArfid item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.ArdbnStatusArfid7DfEnumSel">
+            <summary>
+            The ArdbnStatusArfid7DfEnumSel item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.ArdbnStatusArfid7DfEnumSelInfo">
+            <summary>
+            The ArdbnStatusArfid7DfEnumSel item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.PendingOriginalIncident">
+            <summary>
+            The PendingOriginalIncident item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.PendingOriginalIncidentInfo">
+            <summary>
+            The PendingOriginalIncident item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.Pending">
+            <summary>
+            The Pending item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.PageBodyPbChromeFolder.PendingInfo">
+            <summary>
+            The Pending item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.FormContainerFolder">
+            <summary>
+            The FormContainerFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.FormContainerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new FormContainer  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Relationships">
+            <summary>
+            The Relationships item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.RelationshipsInfo">
+            <summary>
+            The Relationships item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Incident">
+            <summary>
+            The Incident item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.IncidentInfo">
+            <summary>
+            The Incident item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.BaseTableInner">
+            <summary>
+            The BaseTableInner item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.BaseTableInnerInfo">
+            <summary>
+            The BaseTableInner item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.PageBodyPbChrome">
+            <summary>
+            The PageBodyPbChrome item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.PageBodyPbChromeInfo">
+            <summary>
+            The PageBodyPbChrome item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.False2">
+            <summary>
+            The False2 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.False2Info">
+            <summary>
+            The False2 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.False4">
+            <summary>
+            The False4 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.False4Info">
+            <summary>
+            The False4 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Search">
+            <summary>
+            The Search item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.SearchInfo">
+            <summary>
+            The Search item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.ArdbnImpactArfid1000000163DfEnumSel">
+            <summary>
+            The ArdbnImpactArfid1000000163DfEnumSel item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.ArdbnImpactArfid1000000163DfEnumSelInfo">
+            <summary>
+            The ArdbnImpactArfid1000000163DfEnumSel item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Javascript">
+            <summary>
+            The Javascript item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.JavascriptInfo">
+            <summary>
+            The Javascript item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Ardbnz5BoxSearchCriteriaArfid30157300">
+            <summary>
+            The Ardbnz5BoxSearchCriteriaArfid30157300 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Ardbnz5BoxSearchCriteriaArfid30157300Info">
+            <summary>
+            The Ardbnz5BoxSearchCriteriaArfid30157300 item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.UseBasicSearch">
+            <summary>
+            The UseBasicSearch item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.UseBasicSearchInfo">
+            <summary>
+            The UseBasicSearch item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Nobr">
+            <summary>
+            The Nobr item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.NobrInfo">
+            <summary>
+            The Nobr item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.TestSummary">
+            <summary>
+            The TestSummary item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.TestSummaryInfo">
+            <summary>
+            The TestSummary item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.Relate">
+            <summary>
+            The Relate item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.RelateInfo">
+            <summary>
+            The Relate item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.NewItem">
+            <summary>
+            The NewItem item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.NewItemInfo">
+            <summary>
+            The NewItem item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.INC0000000000681">
+            <summary>
+            The INC0000000000681 item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.FormContainerFolder.INC0000000000681Info">
+            <summary>
+            The INC0000000000681 item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.NewTabAppFolder">
+            <summary>
+            The NewTabAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.NewTabAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewTab  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.NewTabAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.NewTabAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.MozillaFirefoxAppFolder">
+            <summary>
+            The MozillaFirefoxAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.MozillaFirefoxAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MozillaFirefox  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.MozillaFirefoxAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.MozillaFirefoxAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.MozillaFirefoxAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.MozillaFirefoxAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.TortoiseGitAppFolder">
+            <summary>
+            The TortoiseGitAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.TortoiseGitAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TortoiseGit  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.TortoiseGitAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.TortoiseGitAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.TortoiseGitAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.TortoiseGitAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepoFolders.ChromeAppFolder">
+            <summary>
+            The ChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepoFolders.ChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Chrome  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.ChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.ChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.ChromeAppFolder.PasteCtrlPlusV">
+            <summary>
+            The PasteCtrlPlusV item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepoFolders.ChromeAppFolder.PasteCtrlPlusVInfo">
+            <summary>
+            The PasteCtrlPlusV item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepository">
+            <summary>
+            The class representing the SwissComRepository element repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the SwissComRepository element repository.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepository.BMCRemedySearch">
+            <summary>
+            The BMCRemedySearch folder.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder">
+            <summary>
+            The BMCRemedySearchAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new BMCRemedySearch  folder.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:SwissCom.SwissComRepositoryFolders.BMCRemedySearchAppFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
+        <member name="T:SwissCom.userCodeValidateOriginal">
+             <summary>
+            The userCodeValidateOriginal recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.userCodeValidateOriginal.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.userCodeValidateOriginal.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.userCodeValidateOriginal.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.userCodeValidateOriginal.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.userCodeValidateOriginal.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.userCodeValidateOriginal.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.userCodeValidateOriginal.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.validateDuplicate">
+             <summary>
+            The validateDuplicate recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.validateDuplicate.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateDuplicate.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateDuplicate.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.validateDuplicate.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateDuplicate.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.validateDuplicate.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.validateDuplicate.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.validateFields">
+             <summary>
+            The validateFields recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.validateFields.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateFields.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateFields.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.validateFields.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateFields.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.validateFields.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.validateFields.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.validateOriginal">
+             <summary>
+            The validateOriginal recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.validateOriginal.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateOriginal.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateOriginal.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.validateOriginal.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateOriginal.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.validateOriginal.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.validateOriginal.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SwissCom.validateOriginIncidentDetails">
+             <summary>
+            The validateOriginIncidentDetails recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.validateOriginIncidentDetails.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateOriginIncidentDetails.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateOriginIncidentDetails.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.validateOriginIncidentDetails.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateOriginIncidentDetails.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.validateOriginIncidentDetails.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.validateOriginIncidentDetails.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SwissCom.validateOriginIncidentDetails.var_originStatus">
+            <summary>
+            Gets or sets the value of variable var_originStatus.
+            </summary>
+        </member>
+        <member name="P:SwissCom.validateOriginIncidentDetails.var_statusReason2">
+            <summary>
+            Gets or sets the value of variable var_statusReason2.
+            </summary>
+        </member>
+        <member name="P:SwissCom.validateOriginIncidentDetails.var_statusReason1">
+            <summary>
+            Gets or sets the value of variable var_statusReason1.
+            </summary>
+        </member>
+        <member name="T:SwissCom.validateResolvedDuplicate">
+             <summary>
+            The validateResolvedDuplicate recording.
+             </summary>
+        </member>
+        <member name="F:SwissCom.validateResolvedDuplicate.repo">
+            <summary>
+            Holds an instance of the SwissComRepo repository.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateResolvedDuplicate.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateResolvedDuplicate.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SwissCom.validateResolvedDuplicate.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SwissCom.validateResolvedDuplicate.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SwissCom.validateResolvedDuplicate.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SwissCom.validateResolvedDuplicate.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
