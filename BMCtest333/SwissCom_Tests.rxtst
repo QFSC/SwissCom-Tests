@@ -157,7 +157,7 @@
 					</param>
 					<param
 					name="originIncident"
-					value="INC000000000104">
+					value="INC000000000275">
 					</param>
 					<param
 					name="duplicIncident"
@@ -372,7 +372,7 @@
 			</testmodule>
 			<testmodule
 			id="9c55fb41-ff6d-463d-9474-59a243e1e948"
-			name="Delay3m"
+			name="Recording1"
 			ref="2c1bed14-5885-4a06-9e26-8e9959119ab6"
 			type="Recording">
 			</testmodule>
@@ -746,7 +746,7 @@
 						name="ValidateResolvedDuplicate">
 							<testmodule
 							id="9c55fb41-ff6d-463d-9474-59a243e1e948"
-							name="Delay3m">
+							name="Recording1">
 							</testmodule>
 							<testmodule
 							id="f4898dba-3fa6-4632-a9fe-d7b5e38f8750"
