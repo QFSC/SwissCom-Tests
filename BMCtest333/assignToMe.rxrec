@@ -20,7 +20,7 @@ mode="Global">
 	</useDefaultItemLogging>
 	<codegen
 	classname="AssignToMe"
-	namespace="BMCtest333">
+	namespace="SwissCom_Tests">
 	</codegen>
 	<variables>
 	</variables>
@@ -1079,7 +1079,7 @@ nRvT+8v50AOopu9P7y/nRvT+8v50AOopu9P7y/nRvT+8v50Af//Z
 	relativepath="BMCtest333Repository.rxrep">
 		<codegen
 		classname="BMCtest333Repository"
-		namespace="BMCtest333">
+		namespace="SwissCom_Tests">
 		</codegen>
 		<rootfolder
 		id="05f39afb-bbd5-40dd-b9b1-a986a7574ee7"

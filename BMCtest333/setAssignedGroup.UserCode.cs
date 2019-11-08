@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace BMCtest333
+namespace SwissCom_Tests
 {
     public partial class setAssignedGroup
     {

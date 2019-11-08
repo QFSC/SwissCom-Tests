@@ -20,7 +20,7 @@ mode="Global">
 	</useDefaultItemLogging>
 	<codegen
 	classname="validateDuplicate"
-	namespace="BMCtest333">
+	namespace="SwissCom_Tests">
 	</codegen>
 	<variables>
 	</variables>
@@ -1034,7 +1034,7 @@ r9oRyHPNa3CkBoJQWOBlDyaSS3mjx5kMiZOBuUjNbX9nQ2V5avE0hLSYO4j0PtVSH5o9TRuVGWA9
 	relativepath="BMCtest333Repository.rxrep">
 		<codegen
 		classname="BMCtest333Repository"
-		namespace="BMCtest333">
+		namespace="SwissCom_Tests">
 		</codegen>
 		<rootfolder
 		id="05f39afb-bbd5-40dd-b9b1-a986a7574ee7"

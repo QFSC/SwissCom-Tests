@@ -24,29 +24,29 @@ namespace SwissCom_Tests
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The userCodeValidateOriginal recording.
+    ///The Recording1 recording.
     /// </summary>
-    [TestModule("460889de-a0c9-4192-8af1-5177354bf9fb", ModuleType.Recording, 1)]
-    public partial class userCodeValidateOriginal : ITestModule
+    [TestModule("051be99f-64f4-44a3-a1e1-8e6bbbb474e2", ModuleType.Recording, 1)]
+    public partial class Recording1 : ITestModule
     {
         /// <summary>
         /// Holds an instance of the BMCtest333Repository repository.
         /// </summary>
         public static BMCtest333Repository repo = BMCtest333Repository.Instance;
 
-        static userCodeValidateOriginal instance = new userCodeValidateOriginal();
+        static Recording1 instance = new Recording1();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public userCodeValidateOriginal()
+        public Recording1()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static userCodeValidateOriginal Instance
+        public static Recording1 Instance
         {
             get { return instance; }
         }
@@ -79,6 +79,9 @@ namespace SwissCom_Tests
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3m.", new RecordItemIndex(0));
+            Delay.Duration(180000, false);
+            
         }
 
 #region Image Feature Data

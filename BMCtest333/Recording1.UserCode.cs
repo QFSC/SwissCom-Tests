@@ -22,7 +22,7 @@ using Ranorex.Core.Testing;
 
 namespace SwissCom_Tests
 {
-    public partial class validateDuplicate
+    public partial class Recording1
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

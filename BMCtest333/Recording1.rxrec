@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="c5544f9d-f001-4a43-899e-aa63eeb8f0e7"
+id="051be99f-64f4-44a3-a1e1-8e6bbbb474e2"
 mode="Global">
 	<repeatcount>
 		1
@@ -19,39 +19,12 @@ mode="Global">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="CloseBrowser"
+	classname="Recording1"
 	namespace="SwissCom_Tests">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
-		<closeapprecorditem
-		enabled="True"
-		graceperiod="0ms"
-		method="CloseWindow"
-		optional="False"
-		searchpropertyid="704c9806-bcf2-4924-b77a-7e1e5228de1e">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="8902fdd3-5533-41a7-a25e-4265827b540b"
-			sourcename="ItemRecorderEditor">
-				<path>
-					/dom[@domain='desktop-c80mesn']
-				</path>
-			</info>
-		</closeapprecorditem>
-		<explicitdelayitem
-		duration="1000ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="c96fe3b8-0ac8-477d-9c9e-bc0ec228fece"
@@ -68,7 +41,7 @@ mode="Global">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		closeBrowser.UserCode.cs
+		Recording1.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>

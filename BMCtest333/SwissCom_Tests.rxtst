@@ -370,6 +370,12 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="9c55fb41-ff6d-463d-9474-59a243e1e948"
+			name="Delay3m"
+			ref="2c1bed14-5885-4a06-9e26-8e9959119ab6"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="9ce259a5-333e-4dcc-b09b-d3f71037b559"
 			name="GetDetails">
@@ -739,6 +745,10 @@
 						id="db86b044-647a-4b8d-a5ee-9a51be39a3f2"
 						name="ValidateResolvedDuplicate">
 							<testmodule
+							id="9c55fb41-ff6d-463d-9474-59a243e1e948"
+							name="Delay3m">
+							</testmodule>
+							<testmodule
 							id="f4898dba-3fa6-4632-a9fe-d7b5e38f8750"
 							name="openHelpDeskForm">
 							</testmodule>
@@ -811,6 +821,9 @@
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			Ranorex Automation Helpers.csproj
+		</reference>
 		<reference>
 			Ranorex Automation Helpers.dll
 		</reference>

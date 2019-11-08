@@ -187,6 +187,18 @@
       <UserCode>true</UserCode>
       <id>0cd0e624-6b60-4f4f-853a-1c208086e8de</id>
     </Compile>
+    <Compile Include="Delay3m.cs">
+      <BoundTo>08c2c0bd-3e4a-45ad-9abf-ea6197e4175b</BoundTo>
+      <DependentUpon>Delay3m.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e9a72a2c-0661-438b-85f0-7dc7d3620c01</id>
+    </Compile>
+    <Compile Include="Delay3m.UserCode.cs">
+      <BoundTo>08c2c0bd-3e4a-45ad-9abf-ea6197e4175b</BoundTo>
+      <DependentUpon>Delay3m.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e6b36bd5-6d5f-4d1e-998a-6096a79846a9</id>
+    </Compile>
     <Compile Include="getIncidentDetails.cs">
       <BoundTo>9b00d2de-be33-455b-90ad-ea6683e4203d</BoundTo>
       <DependentUpon>getIncidentDetails.rxrec</DependentUpon>
@@ -285,6 +297,18 @@
       <DependentUpon>closeBrowser.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>8d3f5d3c-2496-4133-a427-6550206872db</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>7d23ab22-588e-4316-8fb9-df8a3eb98863</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>185f9867-3737-4125-b7d3-61f28caad904</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>7d23ab22-588e-4316-8fb9-df8a3eb98863</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0a9826b8-e6f3-42bd-a9bf-66ee8f83330b</id>
     </Compile>
     <Compile Include="Recording3.cs">
       <BoundTo>61e03483-9d5c-4649-9c5b-1d8b20cfc2b7</BoundTo>
@@ -471,6 +495,11 @@
       <id>04f7d65c-eabb-49f5-a7d0-090787fb8910</id>
       <recordtableid>831dfd15-62a2-441a-bee6-4eb585ff5ffd</recordtableid>
     </None>
+    <None Include="Delay3m.rxrec">
+      <id>08c2c0bd-3e4a-45ad-9abf-ea6197e4175b</id>
+      <recordtableid>2c1bed14-5885-4a06-9e26-8e9959119ab6</recordtableid>
+      <BoundTo>6b9a3c25-7aa4-4f17-ab6d-b8f99ca18c94</BoundTo>
+    </None>
     <None Include="getIncidentDetails.rxrec">
       <BoundTo>6b9a3c25-7aa4-4f17-ab6d-b8f99ca18c94</BoundTo>
       <id>9b00d2de-be33-455b-90ad-ea6683e4203d</id>
@@ -510,6 +539,11 @@
       <BoundTo>6b9a3c25-7aa4-4f17-ab6d-b8f99ca18c94</BoundTo>
       <id>a87fd486-609e-4d1a-a7ad-6a7730357f5a</id>
       <recordtableid>19f88308-2239-470d-9abe-1801934513b9</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>6b9a3c25-7aa4-4f17-ab6d-b8f99ca18c94</BoundTo>
+      <id>7d23ab22-588e-4316-8fb9-df8a3eb98863</id>
+      <recordtableid>051be99f-64f4-44a3-a1e1-8e6bbbb474e2</recordtableid>
     </None>
     <None Include="Recording3.rxrec">
       <BoundTo>6b9a3c25-7aa4-4f17-ab6d-b8f99ca18c94</BoundTo>
@@ -583,6 +617,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\SwissCom\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{E708663F-CF8A-4885-A4BA-E61B3B828172}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
       <Project>{D37A43D4-DD8D-4EA0-8ACB-33A6C1B8FF49}</Project>
       <Name>Ranorex Automation Helpers</Name>

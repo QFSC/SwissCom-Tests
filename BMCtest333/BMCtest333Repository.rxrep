@@ -3,7 +3,7 @@ id="c96fe3b8-0ac8-477d-9c9e-bc0ec228fece"
 name="BMCtest333Repository">
 	<codegen
 	classname="BMCtest333Repository"
-	namespace="BMCtest333">
+	namespace="SwissCom_Tests">
 	</codegen>
 	<rootfolder
 	capname="unknown"
